@@ -5,21 +5,95 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637551492435855101
-    m_Hash: 810792717
+      ticks: 637551923007851013
+    m_Hash: 839000910
   m_LockFileStatus:
     m_FilePath: D:/DSV/TME/TME2021-Grupp5/Kulturkrocken_Grupp5/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637551492436981729
-    m_Hash: 2841137167
+      ticks: 637551923009147720
+    m_Hash: 2861237685
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
+    - packageId: com.google.ar.core.arfoundation.extensions@file:D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master
+      testable: 0
+      isDirectDependency: 1
+      version: 1.23.0
+      source: 4
+      resolvedPath: D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master
+      assetPath: Packages/com.google.ar.core.arfoundation.extensions
+      name: com.google.ar.core.arfoundation.extensions
+      displayName: ARCore Extensions
+      author:
+        name: Google LLC
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Google ARCore Extensions for AR Foundation. This package provides
+        access to ARCore features not covered by AR Foundation's cross platform API.
+      status: 4
+      errors: []
+      versions:
+        all: []
+        compatible: []
+        verified: 
+      dependencies:
+      - name: com.unity.xr.arfoundation
+        version: 4.1.0-preview.10
+      - name: com.unity.xr.arcore
+        version: 4.1.0-preview.10
+      resolvedDependencies:
+      - name: com.unity.xr.arfoundation
+        version: 4.2.0-pre.5
+      - name: com.unity.xr.arsubsystems
+        version: 4.2.0-pre.5
+      - name: com.unity.subsystemregistration
+        version: 1.1.0
+      - name: com.unity.modules.subsystems
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      - name: com.unity.xr.management
+        version: 4.0.3
+      - name: com.unity.modules.vr
+        version: 1.0.0
+      - name: com.unity.modules.physics
+        version: 1.0.0
+      - name: com.unity.modules.xr
+        version: 1.0.0
+      - name: com.unity.xr.legacyinputhelpers
+        version: 2.1.7
+      - name: com.unity.xr.arcore
+        version: 4.2.0-pre.5
+      - name: com.unity.modules.androidjni
+        version: 1.0.0
+      keywords: []
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
     - packageId: com.unity.collab-proxy@1.3.9
       testable: 0
       isDirectDependency: 1
@@ -372,6 +446,76 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.vscode.git
         revision: b5ec9b38109e52b1b26597d521e4df75e042ebb9
         path: 
+    - packageId: com.unity.multiplayer-hlapi@1.0.8
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.8
+      source: 1
+      resolvedPath: D:\DSV\TME\TME2021-Grupp5\Kulturkrocken_Grupp5\Library\PackageCache\com.unity.multiplayer-hlapi@1.0.8
+      assetPath: Packages/com.unity.multiplayer-hlapi
+      name: com.unity.multiplayer-hlapi
+      displayName: Multiplayer HLAPI
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: The high level API component of the Unity Multiplayer system.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.2.4-preview
+        - 0.2.5-preview
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
+        - 1.0.4
+        - 1.0.6
+        - 1.0.8
+        compatible:
+        - 0.2.4-preview
+        - 0.2.5-preview
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
+        - 1.0.4
+        - 1.0.6
+        - 1.0.8
+        verified: 
+      dependencies:
+      - name: nuget.mono-cecil
+        version: 0.1.6-preview
+      resolvedDependencies:
+      - name: nuget.mono-cecil
+        version: 0.1.6-preview
+      keywords:
+      - multiplayer
+      - networking
+      - hlapi
+      - high-level
+      - api
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637436636210000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.multiplayer-hlapi.git
+        revision: 0358096b3626d60d1345cfa6df97fcb2dc89152e
+        path: 
     - packageId: com.unity.test-framework@1.1.24
       testable: 0
       isDirectDependency: 1
@@ -460,12 +604,12 @@ m_PackageAssets:
         url: git+https://github.com/Unity-Technologies/com.unity.test-framework.git
         revision: e6fe8892689398c0d9aba4587e0ba69edc3d82b8
         path: 
-    - packageId: com.unity.textmeshpro@3.0.4
+    - packageId: com.unity.textmeshpro@3.0.6
       testable: 0
       isDirectDependency: 1
-      version: 3.0.4
+      version: 3.0.6
       source: 1
-      resolvedPath: D:\DSV\TME\TME2021-Grupp5\Kulturkrocken_Grupp5\Library\PackageCache\com.unity.textmeshpro@3.0.4
+      resolvedPath: D:\DSV\TME\TME2021-Grupp5\Kulturkrocken_Grupp5\Library\PackageCache\com.unity.textmeshpro@3.0.6
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -611,13 +755,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637492944820000000
+      datePublishedTicks: 637547111200000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.textmeshpro.git
-        revision: e2f8dffb26de9a130d5b2140d83891d9a7825330
+        revision: 01e57e3b7de18af9dfe9baaa0a0ff5cc4765c899
         path: 
     - packageId: com.unity.timeline@1.4.7
       testable: 0
@@ -821,12 +965,12 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
-    - packageId: com.unity.xr.arcore@4.0.12
+    - packageId: com.unity.xr.arcore@4.2.0-pre.5
       testable: 0
       isDirectDependency: 1
-      version: 4.0.12
+      version: 4.2.0-pre.5
       source: 1
-      resolvedPath: D:\DSV\TME\TME2021-Grupp5\Kulturkrocken_Grupp5\Library\PackageCache\com.unity.xr.arcore@4.0.12
+      resolvedPath: D:\DSV\TME\TME2021-Grupp5\Kulturkrocken_Grupp5\Library\PackageCache\com.unity.xr.arcore@4.2.0-pre.5
       assetPath: Packages/com.unity.xr.arcore
       name: com.unity.xr.arcore
       displayName: ARCore XR Plugin
@@ -839,7 +983,7 @@ m_PackageAssets:
       description: 'Provides native Google ARCore integration for use with Unity''s
         multi-platform XR API.
 
-        =Supported Features=
+        Supports the following features:
 
         -Efficient
         Background Rendering
@@ -851,7 +995,9 @@ m_PackageAssets:
         -Anchors
 
         -Hit
-        Testing'
+        Testing
+
+        -Occlusion'
       status: 4
       errors: []
       versions:
@@ -984,22 +1130,22 @@ m_PackageAssets:
         verified: 4.0.12
       dependencies:
       - name: com.unity.xr.arsubsystems
-        version: 4.0.12
+        version: 4.2.0-pre.5
       - name: com.unity.xr.management
         version: 4.0.1
       - name: com.unity.modules.androidjni
         version: 1.0.0
       resolvedDependencies:
       - name: com.unity.xr.arsubsystems
-        version: 4.0.12
+        version: 4.2.0-pre.5
       - name: com.unity.subsystemregistration
-        version: 1.0.6
-      - name: com.unity.xr.management
-        version: 4.0.3
+        version: 1.1.0
       - name: com.unity.modules.subsystems
         version: 1.0.0
       - name: com.unity.modules.jsonserialize
         version: 1.0.0
+      - name: com.unity.xr.management
+        version: 4.0.3
       - name: com.unity.modules.vr
         version: 1.0.0
       - name: com.unity.modules.physics
@@ -1029,13 +1175,230 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637486670260000000
+      datePublishedTicks: 637536000790000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/arfoundation.git
-        revision: d2250746d9e0645ddb4cf008d12f833bf31603e1
+        revision: 7388a21f361c39a10ec210a8995297d14337a177
+        path: 
+    - packageId: com.unity.xr.arfoundation@4.2.0-pre.5
+      testable: 0
+      isDirectDependency: 1
+      version: 4.2.0-pre.5
+      source: 1
+      resolvedPath: D:\DSV\TME\TME2021-Grupp5\Kulturkrocken_Grupp5\Library\PackageCache\com.unity.xr.arfoundation@4.2.0-pre.5
+      assetPath: Packages/com.unity.xr.arfoundation
+      name: com.unity.xr.arfoundation
+      displayName: AR Foundation
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: "A collection of MonoBehaviours and C# utilities for working with
+        AR Subsystems. \n\nIncludes: \n\u25AA GameObject menu items for creating
+        an AR setup \n\u25AA MonoBehaviours that control AR session lifecycle and
+        create GameObjects from detected, real-world trackable features \n\u25AA
+        Scale handling \n\u25AA Face tracking\n\nSamples available at https://github.com/Unity-Technologies/arfoundation-samples"
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0-preview.12
+        - 1.0.0-preview.13
+        - 1.0.0-preview.14
+        - 1.0.0-preview.17
+        - 1.0.0-preview.18
+        - 1.0.0-preview.19
+        - 1.0.0-preview.20
+        - 1.0.0-preview.22
+        - 1.1.0-preview.6
+        - 1.5.0-preview.2
+        - 1.5.0-preview.5
+        - 1.5.0-preview.6
+        - 1.5.0-preview.7
+        - 2.0.2
+        - 2.1.0-preview.2
+        - 2.1.0-preview.3
+        - 2.1.1
+        - 2.1.3
+        - 2.1.4
+        - 2.1.8
+        - 2.1.10
+        - 2.1.14
+        - 2.1.16
+        - 2.1.18
+        - 2.2.0-preview.2
+        - 2.2.0-preview.3
+        - 2.2.0-preview.6
+        - 3.0.0-preview.1
+        - 3.0.0-preview.2
+        - 3.0.0-preview.3
+        - 3.0.0-preview.4
+        - 3.0.0-preview.6
+        - 3.0.1
+        - 3.1.0-preview.1
+        - 3.1.0-preview.3
+        - 3.1.0-preview.4
+        - 3.1.0-preview.6
+        - 3.1.0-preview.7
+        - 3.1.0-preview.8
+        - 3.1.3
+        - 3.1.5
+        - 3.1.6
+        - 3.1.10
+        - 4.0.0-preview.1
+        - 4.0.0-preview.3
+        - 4.0.2
+        - 4.0.8
+        - 4.0.9
+        - 4.0.10
+        - 4.0.12
+        - 4.1.0-preview.1
+        - 4.1.0-preview.2
+        - 4.1.0-preview.3
+        - 4.1.0-preview.5
+        - 4.1.0-preview.6
+        - 4.1.0-preview.7
+        - 4.1.0-preview.9
+        - 4.1.0-preview.10
+        - 4.1.0-preview.11
+        - 4.1.0-preview.12
+        - 4.1.0-preview.13
+        - 4.1.1
+        - 4.1.3
+        - 4.1.5
+        - 4.1.7
+        - 4.2.0-pre.2
+        - 4.2.0-pre.3
+        - 4.2.0-pre.4
+        - 4.2.0-pre.5
+        compatible:
+        - 1.0.0-preview.12
+        - 1.0.0-preview.13
+        - 1.0.0-preview.14
+        - 1.0.0-preview.17
+        - 1.0.0-preview.18
+        - 1.0.0-preview.19
+        - 1.0.0-preview.20
+        - 1.0.0-preview.22
+        - 1.1.0-preview.6
+        - 1.5.0-preview.2
+        - 1.5.0-preview.5
+        - 1.5.0-preview.6
+        - 1.5.0-preview.7
+        - 2.0.2
+        - 2.1.0-preview.2
+        - 2.1.0-preview.3
+        - 2.1.1
+        - 2.1.3
+        - 2.1.4
+        - 2.1.8
+        - 2.1.10
+        - 2.1.14
+        - 2.1.16
+        - 2.1.18
+        - 2.2.0-preview.2
+        - 2.2.0-preview.3
+        - 2.2.0-preview.6
+        - 3.0.0-preview.1
+        - 3.0.0-preview.2
+        - 3.0.0-preview.3
+        - 3.0.0-preview.4
+        - 3.0.0-preview.6
+        - 3.0.1
+        - 3.1.0-preview.1
+        - 3.1.0-preview.3
+        - 3.1.0-preview.4
+        - 3.1.0-preview.6
+        - 3.1.0-preview.7
+        - 3.1.0-preview.8
+        - 3.1.3
+        - 3.1.5
+        - 3.1.6
+        - 3.1.10
+        - 4.0.0-preview.1
+        - 4.0.0-preview.3
+        - 4.0.2
+        - 4.0.8
+        - 4.0.9
+        - 4.0.10
+        - 4.0.12
+        - 4.1.0-preview.1
+        - 4.1.0-preview.2
+        - 4.1.0-preview.3
+        - 4.1.0-preview.5
+        - 4.1.0-preview.6
+        - 4.1.0-preview.7
+        - 4.1.0-preview.9
+        - 4.1.0-preview.10
+        - 4.1.0-preview.11
+        - 4.1.0-preview.12
+        - 4.1.0-preview.13
+        - 4.1.1
+        - 4.1.3
+        - 4.1.5
+        - 4.1.7
+        - 4.2.0-pre.2
+        - 4.2.0-pre.3
+        - 4.2.0-pre.4
+        - 4.2.0-pre.5
+        verified: 4.0.12
+      dependencies:
+      - name: com.unity.xr.arsubsystems
+        version: 4.2.0-pre.5
+      - name: com.unity.xr.management
+        version: 4.0.1
+      resolvedDependencies:
+      - name: com.unity.xr.arsubsystems
+        version: 4.2.0-pre.5
+      - name: com.unity.subsystemregistration
+        version: 1.1.0
+      - name: com.unity.modules.subsystems
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      - name: com.unity.xr.management
+        version: 4.0.3
+      - name: com.unity.modules.vr
+        version: 1.0.0
+      - name: com.unity.modules.physics
+        version: 1.0.0
+      - name: com.unity.modules.xr
+        version: 1.0.0
+      - name: com.unity.xr.legacyinputhelpers
+        version: 2.1.7
+      keywords:
+      - xr
+      - ar
+      - augmented
+      - reality
+      - utility
+      - utilities
+      - foundation
+      - core
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637536011350000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/arfoundation.git
+        revision: 7388a21f361c39a10ec210a8995297d14337a177
         path: 
     - packageId: com.unity.xr.management@4.0.3
       testable: 0
@@ -1136,7 +1499,7 @@ m_PackageAssets:
       - name: com.unity.xr.legacyinputhelpers
         version: 2.1.7
       - name: com.unity.subsystemregistration
-        version: 1.0.6
+        version: 1.1.0
       keywords:
       - xr
       - sdk
@@ -2999,68 +3362,12 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.legacyinputhelpers.git
         revision: b2024928b8140a10ad43aeb5824d2f08bb8796bc
         path: 
-    - packageId: com.unity.subsystemregistration@1.0.6
+    - packageId: com.unity.xr.arsubsystems@4.2.0-pre.5
       testable: 0
       isDirectDependency: 0
-      version: 1.0.6
+      version: 4.2.0-pre.5
       source: 1
-      resolvedPath: D:\DSV\TME\TME2021-Grupp5\Kulturkrocken_Grupp5\Library\PackageCache\com.unity.subsystemregistration@1.0.6
-      assetPath: Packages/com.unity.subsystemregistration
-      name: com.unity.subsystemregistration
-      displayName: Subsystem Registration
-      author:
-        name: 
-        email: 
-        url: 
-      category: 
-      type: 
-      description: Provides internal registration mechanism for standalone subsystems. 
-        It allows a standalone subsystem to inform the Subsystem Manager of its existence.
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 1.0.0-preview.4
-        - 1.0.4
-        - 1.0.5
-        - 1.0.6
-        - 1.1.0
-        compatible:
-        - 1.0.6
-        - 1.1.0
-        verified: 1.1.0
-      dependencies: []
-      resolvedDependencies: []
-      keywords:
-      - subsystem
-      - registration
-      - internal
-      registry:
-        id: main
-        name: 
-        url: https://packages.unity.com
-        scopes: []
-        isDefault: 1
-        capabilities: 7
-      hasRegistry: 1
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 637056434700000000
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: git@github.cds.internal.unity3d.com:unity/com.unity.subsystemregistration.git
-        revision: 0b4157c6c0a160c51e74ead305aee77e6f29527d
-        path: 
-    - packageId: com.unity.xr.arsubsystems@4.0.12
-      testable: 0
-      isDirectDependency: 0
-      version: 4.0.12
-      source: 1
-      resolvedPath: D:\DSV\TME\TME2021-Grupp5\Kulturkrocken_Grupp5\Library\PackageCache\com.unity.xr.arsubsystems@4.0.12
+      resolvedPath: D:\DSV\TME\TME2021-Grupp5\Kulturkrocken_Grupp5\Library\PackageCache\com.unity.xr.arsubsystems@4.2.0-pre.5
       assetPath: Packages/com.unity.xr.arsubsystems
       name: com.unity.xr.arsubsystems
       displayName: AR Subsystems
@@ -3071,7 +3378,7 @@ m_PackageAssets:
       category: 
       type: 
       description: Contains definitions for AR Subsystems. This package is a dependency
-        of provider packages as well as AR Foundation
+        of provider packages, as well as AR Foundation.
       status: 4
       errors: []
       versions:
@@ -3085,6 +3392,7 @@ m_PackageAssets:
         - 2.1.3
         - 2.1.14
         - 2.1.16
+        - 2.1.18
         - 2.2.0-preview.2
         - 2.2.0-preview.3
         - 2.2.0-preview.6
@@ -3125,6 +3433,11 @@ m_PackageAssets:
         - 4.1.1
         - 4.1.3
         - 4.1.5
+        - 4.1.7
+        - 4.2.0-pre.2
+        - 4.2.0-pre.3
+        - 4.2.0-pre.4
+        - 4.2.0-pre.5
         compatible:
         - 4.0.8
         - 4.0.9
@@ -3144,13 +3457,22 @@ m_PackageAssets:
         - 4.1.1
         - 4.1.3
         - 4.1.5
+        - 4.1.7
+        - 4.2.0-pre.2
+        - 4.2.0-pre.3
+        - 4.2.0-pre.4
+        - 4.2.0-pre.5
         verified: 4.0.12
       dependencies:
       - name: com.unity.subsystemregistration
-        version: 1.0.6
+        version: 1.1.0
       resolvedDependencies:
       - name: com.unity.subsystemregistration
-        version: 1.0.6
+        version: 1.1.0
+      - name: com.unity.modules.subsystems
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
       keywords:
       - subsystem
       - XR
@@ -3167,13 +3489,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637486668120000000
+      datePublishedTicks: 637535978050000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/arfoundation.git
-        revision: d2250746d9e0645ddb4cf008d12f833bf31603e1
+        revision: 7388a21f361c39a10ec210a8995297d14337a177
         path: 
     - packageId: com.unity.ext.nunit@1.0.6
       testable: 0
@@ -3236,7 +3558,133 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ext.nunit.git
         revision: 29ea4d6504a5f58fb3a6934db839aa80ae6d9d88
         path: 
+    - packageId: nuget.mono-cecil@0.1.6-preview
+      testable: 0
+      isDirectDependency: 0
+      version: 0.1.6-preview
+      source: 1
+      resolvedPath: D:\DSV\TME\TME2021-Grupp5\Kulturkrocken_Grupp5\Library\PackageCache\nuget.mono-cecil@0.1.6-preview
+      assetPath: Packages/nuget.mono-cecil
+      name: nuget.mono-cecil
+      displayName: Mono Cecil
+      author:
+        name: 
+        email: 
+        url: 
+      category: Libraries
+      type: 
+      description: The mono cecil library from https://www.nuget.org/packages/Mono.Cecil/
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.1.5-preview
+        - 0.1.6-preview
+        compatible:
+        - 0.1.5-preview
+        - 0.1.6-preview
+        verified: 
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - mono cecil
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 636898921610000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git@gitlab.cds.internal.unity3d.com/upm-packages/core/nuget.mono-cecil.git
+        revision: d9e57e10c26ba36a62a828729ad08eb73d0386b6
+        path: 
+    - packageId: com.unity.subsystemregistration@1.1.0
+      testable: 0
+      isDirectDependency: 0
+      version: 1.1.0
+      source: 1
+      resolvedPath: D:\DSV\TME\TME2021-Grupp5\Kulturkrocken_Grupp5\Library\PackageCache\com.unity.subsystemregistration@1.1.0
+      assetPath: Packages/com.unity.subsystemregistration
+      name: com.unity.subsystemregistration
+      displayName: Subsystem Registration
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Provides internal registration mechanism for standalone subsystems. 
+        It allows a standalone subsystem to inform the Subsystem Manager of its existence.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0-preview.4
+        - 1.0.4
+        - 1.0.5
+        - 1.0.6
+        - 1.1.0
+        compatible:
+        - 1.0.6
+        - 1.1.0
+        verified: 1.1.0
+      dependencies:
+      - name: com.unity.modules.subsystems
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.modules.subsystems
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      keywords:
+      - subsystem
+      - registration
+      - internal
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637314426150000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.subsystemregistration.git
+        revision: 72584ba5248fbe79e560e795ad819f876954fceb
+        path: 
   m_LocalPackages:
-    m_LocalFileStatus: []
+    m_LocalFileStatus:
+    - m_FilePath: D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master/package.json
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 637492811120000000
+      m_Hash: 2449314991
+    - m_FilePath: D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 0
+      m_Hash: 0
 m_ProjectPath: D:/DSV/TME/TME2021-Grupp5/Kulturkrocken_Grupp5/Packages
 m_EditorVersion: 2020.3.5f1 (8095aa901b9b)
