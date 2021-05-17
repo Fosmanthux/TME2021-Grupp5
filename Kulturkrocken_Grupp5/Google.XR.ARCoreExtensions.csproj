@@ -53,53 +53,56 @@
     <UnityVersion>2020.3.5f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\Internal\ARCoreHandles\ARCoreHandleExtensions.cs" />
     <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\FeatureMapQuality.cs" />
-    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\Internal\CachedData.cs" />
-    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\Internal\Types\ApiArStatus.cs" />
     <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\CameraConfigDepthSensorUsage.cs" />
-    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\Internal\Types\ApiPose.cs" />
-    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\ARCloudReferencePoint.cs" />
     <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\Internal\PropertyAttributes\HelpAttribute.cs" />
-    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\Internal\Types\ApiTrackingState.cs" />
-    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\Internal\Types\ApiCloudAnchorMode.cs" />
-    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\CloudReferenceState.cs" />
-    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\Internal\ApiConstants.cs" />
-    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\PlaybackResult.cs" />
     <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\Internal\Helpers\Translators.cs" />
     <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\Internal\PropertyAttributes\DynamicHelpAttribute.cs" />
-    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\ARRecordingManager.cs" />
+    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\CameraConfigTargetFps.cs" />
+    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\ARPlaybackManager.cs" />
+    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\Internal\Wrappers\CameraConfigFilterApi.cs" />
+    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\Internal\Helpers\DllImportNoop.cs" />
+    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\Internal\Types\ApiPlaybackStatus.cs" />
+    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\Internal\Wrappers\CameraConfigApi.cs" />
+    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\Internal\AndroidPermissionsManager.cs" />
+    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\ARCoreRecordingConfig.cs" />
+    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\Internal\Wrappers\RecordingConfigApi.cs" />
+    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\Internal\Types\ApiArStatus.cs" />
+    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\Internal\Types\ApiCloudAnchorMode.cs" />
+    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\CloudReferenceState.cs" />
     <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\ARCoreExtensionsCameraConfigFilter.cs" />
+    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\ARCoreExtensionsConfig.cs" />
+    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\PlaybackStatus.cs" />
+    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\Internal\PropertyAttributes\EnumFlagsAttribute.cs" />
+    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\VersionInfo.cs" />
+    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\Internal\Types\ApiRecordingStatus.cs" />
+    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\Internal\RuntimeConfig.cs" />
+    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\ARCloudAnchor.cs" />
+    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\Internal\ApiConstants.cs" />
+    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\PlaybackResult.cs" />
+    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\ARRecordingManager.cs" />
     <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\XRCameraConfigurationExtensions.cs" />
     <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\ARCoreExtensions.cs" />
     <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\RecordingResult.cs" />
-    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\CloudAnchorState.cs" />
-    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\RecordingStatus.cs" />
-    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\CameraConfigTargetFps.cs" />
-    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\ARPlaybackManager.cs" />
-    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\CameraConfigFacingDirection.cs" />
     <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\ARAnchorManagerExtensions.cs" />
-    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\ARCoreExtensionsConfig.cs" />
-    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\Internal\Wrappers\AnchorApi.cs" />
-    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\PlaybackStatus.cs" />
-    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\Internal\Wrappers\CameraConfigFilterApi.cs" />
-    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\Internal\Helpers\DllImportNoop.cs" />
-    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\Internal\PropertyAttributes\EnumFlagsAttribute.cs" />
     <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\Internal\Wrappers\PoseApi.cs" />
     <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\Internal\Wrappers\SessionApi.cs" />
-    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\VersionInfo.cs" />
-    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\Internal\Types\ApiPlaybackStatus.cs" />
     <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\CloudAnchorMode.cs" />
-    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\Internal\Wrappers\CameraConfigApi.cs" />
-    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\Internal\AndroidPermissionsManager.cs" />
-    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\Internal\Types\ApiCloudAnchorState.cs" />
-    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\Internal\Types\ApiRecordingStatus.cs" />
     <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\CameraConfigStereoCameraUsage.cs" />
-    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\Internal\RuntimeConfig.cs" />
-    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\ARCoreRecordingConfig.cs" />
+    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\Internal\CachedData.cs" />
+    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\Internal\Types\ApiPose.cs" />
+    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\ARCloudReferencePoint.cs" />
+    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\Internal\Types\ApiTrackingState.cs" />
+    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\RecordingStatus.cs" />
+    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\CloudAnchorState.cs" />
+    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\CameraConfigFacingDirection.cs" />
+    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\Internal\Wrappers\AnchorApi.cs" />
+    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\Internal\Types\ApiCloudAnchorState.cs" />
     <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\Internal\IOSSupportManager.cs" />
-    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\Internal\Wrappers\RecordingConfigApi.cs" />
-    <Compile Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Scripts\ARCloudAnchor.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Runtime\Google.XR.ARCoreExtensions.asmdef" />
@@ -334,6 +337,12 @@
     <Reference Include="UnityEditor.UWP.Extensions">
       <HintPath>D:\Program Files (x86)\2020.3.5f1\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.UWP.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+      <HintPath>C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.VersionHandler">
+      <HintPath>D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Editor\ExternalDependencyManager\Editor\Google.VersionHandler.dll</HintPath>
+    </Reference>
     <Reference Include="Google.IOSResolver_v1.2.162">
       <HintPath>D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Editor\ExternalDependencyManager\Editor\Google.IOSResolver_v1.2.162.dll</HintPath>
     </Reference>
@@ -348,9 +357,6 @@
     </Reference>
     <Reference Include="Google.JarResolver_v1.2.162">
       <HintPath>D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Editor\ExternalDependencyManager\Editor\Google.JarResolver_v1.2.162.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.VersionHandler">
-      <HintPath>D:\DSV\TME\arcore-unity-extensions-master\arcore-unity-extensions-master\Editor\ExternalDependencyManager\Editor\Google.VersionHandler.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>D:\Program Files (x86)\2020.3.5f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
