@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/VJ - Memory game/Assets/Scenes/SetGame.unity
+- path: Assets/ZM/Assets/Scenes/Menu.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
