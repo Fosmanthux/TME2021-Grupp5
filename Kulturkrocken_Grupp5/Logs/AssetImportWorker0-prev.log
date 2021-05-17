@@ -15,11 +15,11 @@ D:/DSV/TME/TME2021-Grupp5/Kulturkrocken_Grupp5
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-14590
+2046
 Successfully changed project path to: D:/DSV/TME/TME2021-Grupp5/Kulturkrocken_Grupp5
 D:/DSV/TME/TME2021-Grupp5/Kulturkrocken_Grupp5
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 58.64 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 45.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.5f1 (8095aa901b9b)
 [Subsystems] Discovering subsystems at path D:/Program Files (x86)/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -35,333 +35,101 @@ Initialize mono
 Mono path[0] = 'D:/Program Files (x86)/2020.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Program Files (x86)/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Program Files (x86)/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Program Files (x86)/2020.3.5f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: D:/Program Files (x86)/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011554 seconds.
+Registered in 0.007422 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 37.31 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 34.84 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.756 seconds
+- Completed reload, in  2.978 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.019015 seconds.
+Registered in 0.012516 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.429 seconds
+- Completed reload, in  1.232 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.21 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
 Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1715 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.6 MB.
-System memory in use after: 78.6 MB.
+Unloading 1705 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.3 MB.
+System memory in use after: 78.3 MB.
 
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2153.
-Total: 2.116100 ms (FindLiveObjects: 0.219900 ms CreateObjectMapping: 0.107200 ms MarkObjects: 1.698000 ms  DeleteObjects: 0.089900 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Samples/ARCore Extensions/1.23.0/Persistent Cloud Anchor Sample/Scenes/PersistentCloudAnchors.unity
-  artifactKey: Guid(a1cbde3cab63248f4bbf8d8ad6586754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/ARCore Extensions/1.23.0/Persistent Cloud Anchor Sample/Scenes/PersistentCloudAnchors.unity using Guid(a1cbde3cab63248f4bbf8d8ad6586754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b642ce8b92866c9efcbea2f3f0ab77f') in 0.045585 seconds
-  Import took 0.049813 seconds .
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2143.
+Total: 3.068500 ms (FindLiveObjects: 0.317300 ms CreateObjectMapping: 0.095300 ms MarkObjects: 2.460700 ms  DeleteObjects: 0.193300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 46.414309 seconds.
-  path: Assets/VJ - Memory game/Assets/Sounds/1n.mp3
-  artifactKey: Guid(ecc1198bc8aa53745a4f2f8bc8adf80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VJ - Memory game/Assets/Sounds/1n.mp3 using Guid(ecc1198bc8aa53745a4f2f8bc8adf80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cab4acda71838f772edcb327f5ffa18') in 0.626442 seconds
-  Import took 0.630484 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000458 seconds.
-  path: Assets/VJ - Memory game/Assets/Sounds/2n.mp3
-  artifactKey: Guid(3e3ff828e5eba1043bf713e3ed668797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VJ - Memory game/Assets/Sounds/2n.mp3 using Guid(3e3ff828e5eba1043bf713e3ed668797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d432e1b65eb31f6c9e952ee953990d') in 0.030655 seconds
-  Import took 0.036061 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000428 seconds.
-  path: Assets/VJ - Memory game/Assets/Sounds/Pyk4Nowy.mp3
-  artifactKey: Guid(d54e46514fc78cd45beb3d4f08edae1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VJ - Memory game/Assets/Sounds/Pyk4Nowy.mp3 using Guid(d54e46514fc78cd45beb3d4f08edae1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a5fc54ebff4ad941dbb61540f485336') in 0.014956 seconds
-  Import took 0.019671 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000509 seconds.
-  path: Assets/VJ - Memory game/Assets/Sounds/2n.mp3
-  artifactKey: Guid(3e3ff828e5eba1043bf713e3ed668797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VJ - Memory game/Assets/Sounds/2n.mp3 using Guid(3e3ff828e5eba1043bf713e3ed668797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d432e1b65eb31f6c9e952ee953990d') in 0.021411 seconds
-  Import took 0.026057 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000529 seconds.
-  path: Assets/VJ - Memory game/Assets/Sounds/4n.mp3
-  artifactKey: Guid(9f0a602b6e65b4d4f8f102d69e2fffa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VJ - Memory game/Assets/Sounds/4n.mp3 using Guid(9f0a602b6e65b4d4f8f102d69e2fffa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '827a7ca5770318324fd98bd37223881d') in 0.021319 seconds
-  Import took 0.026298 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000427 seconds.
-  path: Assets/VJ - Memory game/Assets/Sounds/3n.mp3
-  artifactKey: Guid(db318b8d1342d7842bb1e46493dab3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VJ - Memory game/Assets/Sounds/3n.mp3 using Guid(db318b8d1342d7842bb1e46493dab3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7056a0b7649f5f36d45252c227f605f0') in 0.025026 seconds
-  Import took 0.029261 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.140163 seconds.
-  path: Assets/VJ - Memory game/Assets/Prefabs/PicturePrefab.prefab
-  artifactKey: Guid(2cfa33cf98eeeb44789e2567b6919ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VJ - Memory game/Assets/Prefabs/PicturePrefab.prefab using Guid(2cfa33cf98eeeb44789e2567b6919ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e97e3a4a69c1885512b314f0d17aca0e') in 0.379246 seconds
-  Import took 0.382980 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.760224 seconds.
-  path: Assets/VJ - Memory game/Assets/Memorycards/bar.PNG
-  artifactKey: Guid(7852125501515dc42ad8b17071547201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VJ - Memory game/Assets/Memorycards/bar.PNG using Guid(7852125501515dc42ad8b17071547201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55305957a8b75f8b51f1ce5050b9f36') in 0.108008 seconds
-  Import took 0.111838 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000459 seconds.
-  path: Assets/VJ - Memory game/Assets/Memorycards/KTHSspelbakgrund.PNG
-  artifactKey: Guid(9de310b3d7c4b1f4d9d06d60f119976d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VJ - Memory game/Assets/Memorycards/KTHSspelbakgrund.PNG using Guid(9de310b3d7c4b1f4d9d06d60f119976d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a48f037b90a545af299bcbb1ef44a50') in 0.040137 seconds
-  Import took 0.043279 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000522 seconds.
-  path: Assets/VJ - Memory game/Assets/Memorycards/film3.PNG
-  artifactKey: Guid(806f65a70c218d0468fcba3b2117a66a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VJ - Memory game/Assets/Memorycards/film3.PNG using Guid(806f65a70c218d0468fcba3b2117a66a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '199a79936b6cd879b75fc8f350dc1f43') in 0.032650 seconds
-  Import took 0.039094 seconds .
+  path: Assets/DY/Utställningar.unity
+  artifactKey: Guid(8204201b20e6e431085b9bc36f1c30fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DY/Utställningar.unity using Guid(8204201b20e6e431085b9bc36f1c30fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6bb422fc9401929f4287badb0eaf5df') in 0.013298 seconds
+  Import took 0.016995 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000538 seconds.
-  path: Assets/VJ - Memory game/Assets/Memorycards/marionettteater.PNG
-  artifactKey: Guid(324d844af62982b46a12b880cf345baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VJ - Memory game/Assets/Memorycards/marionettteater.PNG using Guid(324d844af62982b46a12b880cf345baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f4a534526032615ce03664c730de02') in 0.030767 seconds
-  Import took 0.035037 seconds .
+  path: Assets/DY/Highlights from The Armory Show 2020 - Contemporary Art Fair.mp4
+  artifactKey: Guid(3e12a85bcb9154880a87e4df060ed64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DY/Highlights from The Armory Show 2020 - Contemporary Art Fair.mp4 using Guid(3e12a85bcb9154880a87e4df060ed64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '366852241898402086bb56c384c3fdee') in 0.346240 seconds
+  Import took 0.349195 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000388 seconds.
-  path: Assets/VJ - Memory game/Assets/Memorycards/teatersamtal1.PNG
-  artifactKey: Guid(33534a9d9a3226249b5c7f902a1fe590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VJ - Memory game/Assets/Memorycards/teatersamtal1.PNG using Guid(33534a9d9a3226249b5c7f902a1fe590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd89df94f3ea9ec8aade418fd7b1006') in 0.031849 seconds
-  Import took 0.036258 seconds .
+  Time since last request: 0.000356 seconds.
+  path: Assets/DY/StateoftheART at the Zeitz MOCAA _ Cape Town Art Exhibition.mp4
+  artifactKey: Guid(93349d3c5ce824e158599efe4f4105fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DY/StateoftheART at the Zeitz MOCAA _ Cape Town Art Exhibition.mp4 using Guid(93349d3c5ce824e158599efe4f4105fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '925aef7f72b16ce05af0a0cf20e7130e') in 0.003984 seconds
+  Import took 0.007120 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000435 seconds.
-  path: Assets/VJ - Memory game/Assets/Memorycards/konsert4.PNG
-  artifactKey: Guid(63bd1405faecd4648a235b9eb392fa2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VJ - Memory game/Assets/Memorycards/konsert4.PNG using Guid(63bd1405faecd4648a235b9eb392fa2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b9de90b19d693652a0d9fb2bac7e67') in 0.027196 seconds
-  Import took 0.031829 seconds .
+  Time since last request: 0.000606 seconds.
+  path: Assets/DY/Art exhibition showcases China's fight against the coronavirus pandemic.mp4
+  artifactKey: Guid(ba4435551f4454f299fdce124427a807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DY/Art exhibition showcases China's fight against the coronavirus pandemic.mp4 using Guid(ba4435551f4454f299fdce124427a807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db7b4d3bc8684fdd8d7ca9fd135a48a4') in 0.005558 seconds
+  Import took 0.010874 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000456 seconds.
-  path: Assets/VJ - Memory game/Assets/Memorycards/teater3.PNG
-  artifactKey: Guid(0b167e33da547b043b70f6f9e1c0d809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VJ - Memory game/Assets/Memorycards/teater3.PNG using Guid(0b167e33da547b043b70f6f9e1c0d809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b645e9aff0b68606125fdc28983d3d9') in 0.029836 seconds
-  Import took 0.033544 seconds .
+  Time since last request: 0.000431 seconds.
+  path: Assets/DY/9convert.com - This Augmented Reality Art Exhibit Showers Visitors With Flowers.mp4
+  artifactKey: Guid(9969c5f910ca94880adc9c107f8f0d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DY/9convert.com - This Augmented Reality Art Exhibit Showers Visitors With Flowers.mp4 using Guid(9969c5f910ca94880adc9c107f8f0d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '520f4e773eb8660115ff700b5d7b0af4') in 0.004936 seconds
+  Import took 0.009070 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000363 seconds.
-  path: Assets/VJ - Memory game/Assets/Memorycards/teater4.PNG
-  artifactKey: Guid(ec756a69e7379ef4cb3b0d5d0eddaf37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VJ - Memory game/Assets/Memorycards/teater4.PNG using Guid(ec756a69e7379ef4cb3b0d5d0eddaf37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a805567400ce983c0df49291d5b7b822') in 0.030275 seconds
-  Import took 0.035437 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014375 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.190 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1699 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.0 MB.
+System memory in use after: 78.0 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000490 seconds.
-  path: Assets/VJ - Memory game/Assets/Memorycards/fasad_11D1001d.png
-  artifactKey: Guid(db7058d965fc4f240a95f1a64c127e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VJ - Memory game/Assets/Memorycards/fasad_11D1001d.png using Guid(db7058d965fc4f240a95f1a64c127e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343f8bdc853ff966e61d67e2fcd0969c') in 0.063184 seconds
-  Import took 0.067588 seconds .
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2147.
+Total: 3.196700 ms (FindLiveObjects: 0.299800 ms CreateObjectMapping: 0.157400 ms MarkObjects: 2.626600 ms  DeleteObjects: 0.111400 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000384 seconds.
-  path: Assets/VJ - Memory game/Assets/Memorycards/SAJT_HEADER_OMOSS_HEL_0.png
-  artifactKey: Guid(3b3d096091c4c4c4683f0e5d82951314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VJ - Memory game/Assets/Memorycards/SAJT_HEADER_OMOSS_HEL_0.png using Guid(3b3d096091c4c4c4683f0e5d82951314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4572deca03e18778b88b255f306f898c') in 0.055310 seconds
-  Import took 0.059066 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/VJ - Memory game/Assets/Memorycards/film.PNG
-  artifactKey: Guid(541fe33a45c0fe04d95b61bc0db3ac1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VJ - Memory game/Assets/Memorycards/film.PNG using Guid(541fe33a45c0fe04d95b61bc0db3ac1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8eb781be6c35418f39e62a17ae4d5fd') in 0.020893 seconds
-  Import took 0.024452 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000392 seconds.
-  path: Assets/VJ - Memory game/Assets/Memorycards/konsert3.PNG
-  artifactKey: Guid(4ea72c6f50366a542bbf7269a6fbb9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VJ - Memory game/Assets/Memorycards/konsert3.PNG using Guid(4ea72c6f50366a542bbf7269a6fbb9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac9e64f4cad4b22ebbcd369d66d9f8c') in 0.030150 seconds
-  Import took 0.033758 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000500 seconds.
-  path: Assets/VJ - Memory game/Assets/Memorycards/konsert.PNG
-  artifactKey: Guid(5c48358747570e7409f82f91d3f71155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VJ - Memory game/Assets/Memorycards/konsert.PNG using Guid(5c48358747570e7409f82f91d3f71155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce953ef2c20376b6a1b73522223324b') in 0.023540 seconds
-  Import took 0.028386 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000428 seconds.
-  path: Assets/VJ - Memory game/Assets/Memorycards/images.png
-  artifactKey: Guid(4b2fe3c5fcab3464b8b40f0a84daeef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VJ - Memory game/Assets/Memorycards/images.png using Guid(4b2fe3c5fcab3464b8b40f0a84daeef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec73e3acf28b13c0c710f5da94ce7e02') in 0.024597 seconds
-  Import took 0.027716 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/VJ - Memory game/Assets/Memorycards/teater5kommande.PNG
-  artifactKey: Guid(fba2bc5cad69d844f958e9cd87072c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VJ - Memory game/Assets/Memorycards/teater5kommande.PNG using Guid(fba2bc5cad69d844f958e9cd87072c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '425183c4e1ff682bdbc0e58e8cac9874') in 0.031693 seconds
-  Import took 0.036210 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/VJ - Memory game/Assets/Memorycards/ute.PNG
-  artifactKey: Guid(921f0c3a46ce68749bdfde09778b26ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VJ - Memory game/Assets/Memorycards/ute.PNG using Guid(921f0c3a46ce68749bdfde09778b26ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c8f0a15245809c810af5458a634b6c') in 0.034846 seconds
-  Import took 0.039531 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000560 seconds.
-  path: Assets/VJ - Memory game/Assets/Memorycards/teater2.PNG
-  artifactKey: Guid(be26fa90832211449915f99300438b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VJ - Memory game/Assets/Memorycards/teater2.PNG using Guid(be26fa90832211449915f99300438b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b7823a2066932c53a43d1ce9a1b84b') in 0.025001 seconds
-  Import took 0.030701 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000401 seconds.
-  path: Assets/VJ - Memory game/Assets/Memorycards/film2.PNG
-  artifactKey: Guid(ae87b236ddf7cfa44b19e787f7e721c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VJ - Memory game/Assets/Memorycards/film2.PNG using Guid(ae87b236ddf7cfa44b19e787f7e721c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfbe14864fae893583716b8faa899571') in 0.032965 seconds
-  Import took 0.038699 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000472 seconds.
-  path: Assets/VJ - Memory game/Assets/Memorycards/teater1.PNG
-  artifactKey: Guid(033f440acecb61b4696c7773db38e5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VJ - Memory game/Assets/Memorycards/teater1.PNG using Guid(033f440acecb61b4696c7773db38e5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab71afbaceb597ed6a7e05fa953c69d') in 0.024263 seconds
-  Import took 0.029295 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001153 seconds.
-  path: Assets/VJ - Memory game/Assets/Memorycards/konsert2.PNG
-  artifactKey: Guid(8e491f92c806fa94daf885a1fea3b8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VJ - Memory game/Assets/Memorycards/konsert2.PNG using Guid(8e491f92c806fa94daf885a1fea3b8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4556aaec05876ee5e28018d298ed3c47') in 0.029003 seconds
-  Import took 0.034693 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000518 seconds.
-  path: Assets/VJ - Memory game/Assets/Memorycards/teater6snart.PNG
-  artifactKey: Guid(b371e699c009b374b8fc0624cca6a215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VJ - Memory game/Assets/Memorycards/teater6snart.PNG using Guid(b371e699c009b374b8fc0624cca6a215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9edf39f9c25e606edd3dfdba3f1dcb9b') in 0.022846 seconds
-  Import took 0.026245 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000422 seconds.
-  path: Assets/VJ - Memory game/Assets/Memorycards/film4.PNG
-  artifactKey: Guid(1e121be475bff4b40a85f9a348616cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VJ - Memory game/Assets/Memorycards/film4.PNG using Guid(1e121be475bff4b40a85f9a348616cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed714e7f37273dce91ee00dc504d312f') in 0.030109 seconds
-  Import took 0.033930 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000392 seconds.
-  path: Assets/VJ - Memory game/Assets/Memorycards/panoramarestaurang.PNG
-  artifactKey: Guid(499c1609527185e4b8312e8fb2bbb986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VJ - Memory game/Assets/Memorycards/panoramarestaurang.PNG using Guid(499c1609527185e4b8312e8fb2bbb986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960f08b069fea5795007e596e356401b') in 0.027502 seconds
-  Import took 0.031159 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1007.006271 seconds.
-  path: Assets/VJ - Memory game/Assets/Scenes/GameScene.unity
-  artifactKey: Guid(98a6aa606dc18964fa58d4235e037c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VJ - Memory game/Assets/Scenes/GameScene.unity using Guid(98a6aa606dc18964fa58d4235e037c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '963a3e4aaca41c288e6954ee5853d68f') in 0.011933 seconds
-  Import took 0.016703 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 33.574119 seconds.
-  path: Assets/VJ - Memory game/Assets/Scenes/MainMenu.unity
-  artifactKey: Guid(6ba96a3446dddcb4abf2cfd51f7e8b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VJ - Memory game/Assets/Scenes/MainMenu.unity using Guid(6ba96a3446dddcb4abf2cfd51f7e8b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd411e885984d4d2307d7e63883f35dd') in 0.009604 seconds
-  Import took 0.013437 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.915189 seconds.
-  path: Assets/ZM/Assets/Scenes/Menu.unity
-  artifactKey: Guid(aa45e621265befd4c838395940b02300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ZM/Assets/Scenes/Menu.unity using Guid(aa45e621265befd4c838395940b02300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbaa9a071e4a22d144901220dbd6a498') in 0.010002 seconds
-  Import took 0.013586 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.008624 seconds.
-  path: Assets/ZM/Assets/Scenes/Game.unity
-  artifactKey: Guid(c02570f48373f3345bbf901bcf78230d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ZM/Assets/Scenes/Game.unity using Guid(c02570f48373f3345bbf901bcf78230d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ecc57fcf51b7872136b94f39cf4371a') in 0.037457 seconds
-  Import took 0.040872 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.067519 seconds.
-  path: Assets/ZM/Assets/Scenes/AR.unity
-  artifactKey: Guid(322c00fc5345caf4eb690e3bbda1f3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ZM/Assets/Scenes/AR.unity using Guid(322c00fc5345caf4eb690e3bbda1f3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75085022a32662a3cd9f4f1fdaa4a27d') in 0.008714 seconds
-  Import took 0.013127 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 238.342497 seconds.
-  path: Assets/VJ - Memory game/Assets/Scenes/SetGame.unity
-  artifactKey: Guid(0551bbf9d94e9cc46a00030fe45735c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VJ - Memory game/Assets/Scenes/SetGame.unity using Guid(0551bbf9d94e9cc46a00030fe45735c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa808b9229c6eff04564130fab68efd3') in 0.010530 seconds
-  Import took 0.014644 seconds .
-
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
