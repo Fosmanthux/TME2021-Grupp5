@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{BD6F9CC7-1787-952C-BCC3-58C582F48EB9}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/MemoryGame/Assets/Scripts/Timer.cs">
+    <Files>
+      <File FileName="Assets/MemoryGame/Assets/Scripts/Timer.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Kulturkrocken_Grupp5" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f2ae9a7b-4bd5-43a0-897f-dc962acc98bd" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

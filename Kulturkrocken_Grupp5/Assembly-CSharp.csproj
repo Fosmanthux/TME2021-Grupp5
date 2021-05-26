@@ -61,6 +61,8 @@
     <Compile Include="Assets/dreamlo/dreamloLeaderBoard.cs" />
     <Compile Include="Assets/dreamlo/LeaderBoardSample.cs" />
     <Compile Include="Assets/MemoryGame/Assets/Scripts/AddButtons.cs" />
+    <Compile Include="Assets/MemoryGame/Assets/Scripts/Timer.cs" />
+    <Compile Include="Assets/timer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/dreamlo/README_FIRST.txt" />
