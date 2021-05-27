@@ -6,21 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/VJ - Memory game/Assets/Scenes/MainMenu.unity
-    guid: 6ba96a3446dddcb4abf2cfd51f7e8b43
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/VJ - Memory game/Assets/Scenes/SetGame.unity
-    guid: 0551bbf9d94e9cc46a00030fe45735c1
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/VJ - Memory game/Assets/Scenes/GameScene.unity
-    guid: 98a6aa606dc18964fa58d4235e037c0a
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
     path: Assets/ZM/Assets/Scenes/Menu.unity
     guid: aa45e621265befd4c838395940b02300
   - enabled: 0
     path: "Assets/DY/Utst\xE4llningar.unity"
     guid: 8204201b20e6e431085b9bc36f1c30fc
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ScoreBoard.unity
     guid: 10007bb71d2a9d94c94c6b9e355ede98
   m_configObjects:

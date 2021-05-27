@@ -98,17 +98,19 @@ public class LeaderBoardSample : MonoBehaviour {
 		{
 			GUILayout.Label("High Scores:");
 			List<dreamloLeaderBoard.Score> scoreList = dl.ToListHighToLow();
-			
+			//Debug.Log(scoreList.Count);
+
 			if (scoreList == null) 
 			{
 				GUILayout.Label("(loading...)");
 			} 
 			else 
 			{
-				int maxToDisplay = 20;
+				int maxToDisplay = 5;
 				int count = 0;
 				foreach (dreamloLeaderBoard.Score currentScore in scoreList)
 				{
+					//Debug.Log(currentScore);
 					count++;
 					GUILayout.BeginHorizontal();
 					GUILayout.Label(currentScore.playerName, width200);
