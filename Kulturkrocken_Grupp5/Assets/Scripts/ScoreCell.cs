@@ -8,9 +8,11 @@ public class ScoreCell : MonoBehaviour
     public Text nameText;
     public Text scoreText;
 
+    private int opposite = -1;
+
     public void SetModel (dreamloLeaderBoard.Score data)
     {
         nameText.text = data.playerName;
-        scoreText.text = data.score + " tries";
+        scoreText.text = data.score * opposite + " tries";
     }
 }

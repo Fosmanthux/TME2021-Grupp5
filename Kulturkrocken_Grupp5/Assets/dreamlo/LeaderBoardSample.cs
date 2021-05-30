@@ -120,7 +120,6 @@ public class LeaderBoardSample : MonoBehaviour {
 					if (count >= maxToDisplay) break;
 				}
 			}
-
 		}
 
 		GUILayout.EndArea();

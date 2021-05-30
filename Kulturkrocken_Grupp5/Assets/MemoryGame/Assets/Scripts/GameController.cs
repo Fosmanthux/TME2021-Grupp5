@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
-
     [SerializeField]
     private Sprite bgImage;
 
@@ -14,8 +13,17 @@ public class GameController : MonoBehaviour
     public List<Sprite> gameCards = new List<Sprite>();
     public List<Button> btns = new List<Button>();
 
+    const string ScoreKey = "Score";
+
+    public GameObject recordPanel;
+    public Text recordText;
+    public Text scoreText;
+
+    public static GameController instance;
+
     private bool firstGuess, secondGuess;
 
+    private int recordGuess;
     private int countGuess;
     private int countCorrectGuesses;
     private int gameGuesses;
@@ -24,10 +32,10 @@ public class GameController : MonoBehaviour
 
     private string firstGuessCard, secondGuessCard;
 
-
     private void Awake()
     {
         cards = Resources.LoadAll<Sprite>("Kulturhuset/MemoryCards");
+        instance = this;
     }
 
 
@@ -38,6 +46,14 @@ public class GameController : MonoBehaviour
         AddGameCards();
         gameGuesses = gameCards.Count / 2;
 
+        LoadPrefs();
+
+        recordText.text = "Finished game in turn " + recordGuess;
+    }
+
+    private void Update()
+    {
+        scoreText.text = "current turn " + countGuess;
     }
 
     void GetButtons()
@@ -150,7 +166,8 @@ public class GameController : MonoBehaviour
         {
             Debug.Log("Game Finished");
             Debug.Log("It took you "+ countGuess + " many guess(es) to finish the game");
-          
+
+            gameIsFinished();
         }
     }
 
@@ -163,5 +180,31 @@ public class GameController : MonoBehaviour
             list[i] = list[randomIndex];
             list[randomIndex] = temp;
         }
+    }
+
+    void SavePrefs()
+    {
+        if (countGuess > recordGuess)
+        {
+            PlayerPrefs.SetInt(ScoreKey, countGuess);
+            PlayerPrefs.Save();
+        }
+    }
+
+    void LoadPrefs()
+    {
+        var score = PlayerPrefs.GetInt(ScoreKey, 0);
+        recordGuess = score;
+    }
+
+    void gameIsFinished()
+    {
+        SavePrefs();
+        recordPanel.SetActive(true);
+    }
+
+    private void OnApplicationQuit()
+    {
+        SavePrefs();
     }
 }
