@@ -1,16 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - AddButtons
-    - GameController
-    - GetGPS
-    - LeaderBoardManager
     - LoadScene
-    - PanelOpener
-    - ScoreCell
-    - Timer
-    - dreamloLeaderBoard
-    - dreamloPromoCode
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.XR.ARCore.Editor.dll:
@@ -32,192 +23,12 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
-    - UnityEngine.UI.GridLayoutGroup
     - UnityEngine.UI.Image
-    - UnityEngine.UI.InputField
-    - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
     com.unity.multiplayer-hlapi.Runtime.dll:
     - UnityEngine.Networking.NetworkCallbacks
   sceneClasses:
-    Assets/Scenes/GamePlay.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 1444}
-    - Class: 114
-      Script: {instanceID: 1498}
-    - Class: 114
-      Script: {instanceID: 1630}
-    - Class: 114
-      Script: {instanceID: 2018}
-    - Class: 114
-      Script: {instanceID: 2332}
-    - Class: 114
-      Script: {instanceID: 2446}
-    - Class: 114
-      Script: {instanceID: 2610}
-    - Class: 114
-      Script: {instanceID: 2810}
-    - Class: 114
-      Script: {instanceID: 2880}
-    - Class: 114
-      Script: {instanceID: 4398}
-    - Class: 114
-      Script: {instanceID: 4514}
-    - Class: 114
-      Script: {instanceID: 4550}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    Assets/Scenes/LeaderBoard.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 1444}
-    - Class: 114
-      Script: {instanceID: 1498}
-    - Class: 114
-      Script: {instanceID: 1608}
-    - Class: 114
-      Script: {instanceID: 1630}
-    - Class: 114
-      Script: {instanceID: 2018}
-    - Class: 114
-      Script: {instanceID: 2332}
-    - Class: 114
-      Script: {instanceID: 2446}
-    - Class: 114
-      Script: {instanceID: 2610}
-    - Class: 114
-      Script: {instanceID: 2662}
-    - Class: 114
-      Script: {instanceID: 2810}
-    - Class: 114
-      Script: {instanceID: 3528}
-    - Class: 114
-      Script: {instanceID: 3610}
-    - Class: 114
-      Script: {instanceID: 3726}
-    - Class: 114
-      Script: {instanceID: 3732}
-    - Class: 114
-      Script: {instanceID: 4550}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    Assets/Scenes/MainMenu.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 1444}
-    - Class: 114
-      Script: {instanceID: 1498}
-    - Class: 114
-      Script: {instanceID: 1630}
-    - Class: 114
-      Script: {instanceID: 1658}
-    - Class: 114
-      Script: {instanceID: 2018}
-    - Class: 114
-      Script: {instanceID: 2332}
-    - Class: 114
-      Script: {instanceID: 2446}
-    - Class: 114
-      Script: {instanceID: 2610}
-    - Class: 114
-      Script: {instanceID: 2810}
-    - Class: 114
-      Script: {instanceID: 2948}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    Assets/Scenes/VideoPlay.unity:
+    Assets/Scenes/VideoPlay 1.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -250,6 +61,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 1444}
     - Class: 114
       Script: {instanceID: 1498}
+    - Class: 114
+      Script: {instanceID: 1630}
     - Class: 114
       Script: {instanceID: 2018}
     - Class: 114
@@ -479,6 +292,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: c361ab72f56d2a888cd61da91b5c34cc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TimerGameOver
   - hash:
       serializedVersion: 2
       Hash: 37a13922678947e6d144f41a7195154a
@@ -1127,10 +946,19 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: ee81144d213302d21b603298f19b15e5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UnityEngine.XR.ARFoundation.Samples
+    className: PlaceOnPlane
+  - hash:
+      serializedVersion: 2
+      Hash: 86da5fcc685da74170017c7854a5584c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UnityEngine.XR.ARFoundation.Samples
+    className: BackButton
   platform: 13
   scenePathNames:
-  - Assets/Scenes/MainMenu.unity
-  - Assets/Scenes/GamePlay.unity
-  - Assets/Scenes/VideoPlay.unity
-  - Assets/Scenes/LeaderBoard.unity
-  playerPath: D:/DSV/TME/GetGpsTest2.apk
+  - Assets/Scenes/VideoPlay 1.unity
+  playerPath: D:/DSV/TME/GetGpsTest.apk

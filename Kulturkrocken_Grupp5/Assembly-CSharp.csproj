@@ -68,6 +68,8 @@
     <Compile Include="Assets\dreamlo\LeaderBoardSample.cs" />
     <Compile Include="Assets\Scripts\AddButtons.cs" />
     <Compile Include="Assets\Scripts\Timer.cs" />
+    <Compile Include="Assets\Scripts\PlaceOnPlane.cs" />
+    <Compile Include="Assets\Scripts\UX\BackButton.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\dreamlo\README_FIRST.txt" />

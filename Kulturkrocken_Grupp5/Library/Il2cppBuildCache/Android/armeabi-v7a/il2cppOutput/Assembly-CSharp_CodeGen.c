@@ -156,95 +156,133 @@ extern void U3CTimerTakeU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_
 extern void U3CTimerTakeU3Ed__5_System_Collections_IEnumerator_Reset_mB53D527BD0D43788F95C986640BD45902CE6D6DC (void);
 // 0x00000048 System.Object Timer/<TimerTake>d__5::System.Collections.IEnumerator.get_Current()
 extern void U3CTimerTakeU3Ed__5_System_Collections_IEnumerator_get_Current_mE49890DFB7E2E350CFC1854A27ED35FBBF962D96 (void);
-// 0x00000049 System.Void dreamloLeaderBoard::Start()
+// 0x00000049 System.Void TimerGameOver::Start()
+extern void TimerGameOver_Start_m533BA387E1624D57FE903344BCC1FDC1A204FB22 (void);
+// 0x0000004A System.Void TimerGameOver::countDownTimer()
+extern void TimerGameOver_countDownTimer_m65EAE829BE84F4D149ECEBB226D33B422E08CDC3 (void);
+// 0x0000004B System.Void TimerGameOver::Update()
+extern void TimerGameOver_Update_mCA60160C0A7EDE5ACBFC464D42172262270AF881 (void);
+// 0x0000004C System.Void TimerGameOver::.ctor()
+extern void TimerGameOver__ctor_m0476F209ED70883F001DA769EEA203A9A7FB728C (void);
+// 0x0000004D System.Void dreamloLeaderBoard::Start()
 extern void dreamloLeaderBoard_Start_mC671421D8C33114A20BF748AF5E645432D04879A (void);
-// 0x0000004A dreamloLeaderBoard dreamloLeaderBoard::GetSceneDreamloLeaderboard()
+// 0x0000004E dreamloLeaderBoard dreamloLeaderBoard::GetSceneDreamloLeaderboard()
 extern void dreamloLeaderBoard_GetSceneDreamloLeaderboard_mC07124272D9B8F318A62A89087ABA5DC0E7D5B16 (void);
-// 0x0000004B System.Void dreamloLeaderBoard::AddScore(System.String,System.Int32)
+// 0x0000004F System.Void dreamloLeaderBoard::AddScore(System.String,System.Int32)
 extern void dreamloLeaderBoard_AddScore_m057228BED5D1A7A48436E94311B9A6FDCCCE3FFA (void);
-// 0x0000004C System.Void dreamloLeaderBoard::AddScore(System.String,System.Int32,System.Int32)
+// 0x00000050 System.Void dreamloLeaderBoard::AddScore(System.String,System.Int32,System.Int32)
 extern void dreamloLeaderBoard_AddScore_m1F6BC48C288C15DF29CAF382EC54F1ECBFC94A7D (void);
-// 0x0000004D System.Void dreamloLeaderBoard::AddScore(System.String,System.Int32,System.Int32,System.String)
+// 0x00000051 System.Void dreamloLeaderBoard::AddScore(System.String,System.Int32,System.Int32,System.String)
 extern void dreamloLeaderBoard_AddScore_m67FAE8F5C417D4B2CFAB2B4B0454E669F2C82151 (void);
-// 0x0000004E System.Void dreamloLeaderBoard::AddScoreWithPipe(System.String,System.Int32)
+// 0x00000052 System.Void dreamloLeaderBoard::AddScoreWithPipe(System.String,System.Int32)
 extern void dreamloLeaderBoard_AddScoreWithPipe_m5606AE99552EA19928263C96304B407DA409A4A3 (void);
-// 0x0000004F System.Void dreamloLeaderBoard::AddScoreWithPipe(System.String,System.Int32,System.Int32)
+// 0x00000053 System.Void dreamloLeaderBoard::AddScoreWithPipe(System.String,System.Int32,System.Int32)
 extern void dreamloLeaderBoard_AddScoreWithPipe_m9F8DAC427A41BFCAF4F2F9EE27A4DBEA31B1B458 (void);
-// 0x00000050 System.Void dreamloLeaderBoard::AddScoreWithPipe(System.String,System.Int32,System.Int32,System.String)
+// 0x00000054 System.Void dreamloLeaderBoard::AddScoreWithPipe(System.String,System.Int32,System.Int32,System.String)
 extern void dreamloLeaderBoard_AddScoreWithPipe_mF3E3F9BFB02D7C8B1B3FE475E431FA8AFEB25F83 (void);
-// 0x00000051 System.Void dreamloLeaderBoard::GetScores()
+// 0x00000055 System.Void dreamloLeaderBoard::GetScores()
 extern void dreamloLeaderBoard_GetScores_mC51693E5538E74EBCCE5F52049CC611B5F16EB60 (void);
-// 0x00000052 System.Void dreamloLeaderBoard::GetSingleScore(System.String)
+// 0x00000056 System.Void dreamloLeaderBoard::GetSingleScore(System.String)
 extern void dreamloLeaderBoard_GetSingleScore_m26203E36630D193E55F63D361DF23D9D9C8E1863 (void);
-// 0x00000053 System.Collections.IEnumerator dreamloLeaderBoard::GetRequest(System.String)
+// 0x00000057 System.Collections.IEnumerator dreamloLeaderBoard::GetRequest(System.String)
 extern void dreamloLeaderBoard_GetRequest_mBAAB677C6C4EB5A35C38BCFB2DF667C67BEA6AD0 (void);
-// 0x00000054 System.String[] dreamloLeaderBoard::ToStringArray()
+// 0x00000058 System.String[] dreamloLeaderBoard::ToStringArray()
 extern void dreamloLeaderBoard_ToStringArray_m3D0D4390E35BBAB1DCDF5B8AC50801714AEDC17F (void);
-// 0x00000055 System.Collections.Generic.List`1<dreamloLeaderBoard/Score> dreamloLeaderBoard::ToListLowToHigh()
+// 0x00000059 System.Collections.Generic.List`1<dreamloLeaderBoard/Score> dreamloLeaderBoard::ToListLowToHigh()
 extern void dreamloLeaderBoard_ToListLowToHigh_mD6AE66CEC029ECF839363F4E64D4532DA8381EDF (void);
-// 0x00000056 System.Collections.Generic.List`1<dreamloLeaderBoard/Score> dreamloLeaderBoard::ToListHighToLow()
+// 0x0000005A System.Collections.Generic.List`1<dreamloLeaderBoard/Score> dreamloLeaderBoard::ToListHighToLow()
 extern void dreamloLeaderBoard_ToListHighToLow_mD18CBCF1D84A902BC1E0F242D388D7BD9DBAD60F (void);
-// 0x00000057 dreamloLeaderBoard/Score[] dreamloLeaderBoard::ToScoreArray()
+// 0x0000005B dreamloLeaderBoard/Score[] dreamloLeaderBoard::ToScoreArray()
 extern void dreamloLeaderBoard_ToScoreArray_mC044109EE675A68DC1914C53B5474A29A557AC20 (void);
-// 0x00000058 System.String dreamloLeaderBoard::Clean(System.String)
+// 0x0000005C System.String dreamloLeaderBoard::Clean(System.String)
 extern void dreamloLeaderBoard_Clean_m0991582E48FDEAD71BBFECDB51751E20F20CFAD1 (void);
-// 0x00000059 System.Int32 dreamloLeaderBoard::CheckInt(System.String)
+// 0x0000005D System.Int32 dreamloLeaderBoard::CheckInt(System.String)
 extern void dreamloLeaderBoard_CheckInt_m5CE9933B56CA0939DE71636087FB1B1EB7792E87 (void);
-// 0x0000005A System.Void dreamloLeaderBoard::.ctor()
+// 0x0000005E System.Void dreamloLeaderBoard::.ctor()
 extern void dreamloLeaderBoard__ctor_m88503B3FC6A0281988E3543DED94D0866A666B23 (void);
-// 0x0000005B System.Void dreamloLeaderBoard/<GetRequest>d__16::.ctor(System.Int32)
+// 0x0000005F System.Void dreamloLeaderBoard/<GetRequest>d__16::.ctor(System.Int32)
 extern void U3CGetRequestU3Ed__16__ctor_m6628BACA191E5CF5A8591F13D5F16727146DBABB (void);
-// 0x0000005C System.Void dreamloLeaderBoard/<GetRequest>d__16::System.IDisposable.Dispose()
+// 0x00000060 System.Void dreamloLeaderBoard/<GetRequest>d__16::System.IDisposable.Dispose()
 extern void U3CGetRequestU3Ed__16_System_IDisposable_Dispose_mCC3BBF08D046EFB434C8867A48C6788C3ADF64E0 (void);
-// 0x0000005D System.Boolean dreamloLeaderBoard/<GetRequest>d__16::MoveNext()
+// 0x00000061 System.Boolean dreamloLeaderBoard/<GetRequest>d__16::MoveNext()
 extern void U3CGetRequestU3Ed__16_MoveNext_m6F9A2D121174A2861E83DF3612CE2C5F2CA90C5A (void);
-// 0x0000005E System.Void dreamloLeaderBoard/<GetRequest>d__16::<>m__Finally1()
+// 0x00000062 System.Void dreamloLeaderBoard/<GetRequest>d__16::<>m__Finally1()
 extern void U3CGetRequestU3Ed__16_U3CU3Em__Finally1_m558701E9B744815E78F0BCF6428F33CB832867AC (void);
-// 0x0000005F System.Object dreamloLeaderBoard/<GetRequest>d__16::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000063 System.Object dreamloLeaderBoard/<GetRequest>d__16::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CGetRequestU3Ed__16_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE5A973ED380135D5CBE6DA48E2C8B5E3CE1975CB (void);
-// 0x00000060 System.Void dreamloLeaderBoard/<GetRequest>d__16::System.Collections.IEnumerator.Reset()
+// 0x00000064 System.Void dreamloLeaderBoard/<GetRequest>d__16::System.Collections.IEnumerator.Reset()
 extern void U3CGetRequestU3Ed__16_System_Collections_IEnumerator_Reset_m1D2D85E0F35045C8AC5B714AFD01323724C9596B (void);
-// 0x00000061 System.Object dreamloLeaderBoard/<GetRequest>d__16::System.Collections.IEnumerator.get_Current()
+// 0x00000065 System.Object dreamloLeaderBoard/<GetRequest>d__16::System.Collections.IEnumerator.get_Current()
 extern void U3CGetRequestU3Ed__16_System_Collections_IEnumerator_get_Current_mE4FE02FF3C72ACFACB8E297EBBDC2510DFE05DF5 (void);
-// 0x00000062 System.Void dreamloLeaderBoard/<>c::.cctor()
+// 0x00000066 System.Void dreamloLeaderBoard/<>c::.cctor()
 extern void U3CU3Ec__cctor_m882C925B679F7E818AC4579BACC71D10625017D7 (void);
-// 0x00000063 System.Void dreamloLeaderBoard/<>c::.ctor()
+// 0x00000067 System.Void dreamloLeaderBoard/<>c::.ctor()
 extern void U3CU3Ec__ctor_mC7E9E9DF39A8DDF27457229C4A55BF885802511D (void);
-// 0x00000064 System.Int32 dreamloLeaderBoard/<>c::<ToListLowToHigh>b__18_0(dreamloLeaderBoard/Score,dreamloLeaderBoard/Score)
+// 0x00000068 System.Int32 dreamloLeaderBoard/<>c::<ToListLowToHigh>b__18_0(dreamloLeaderBoard/Score,dreamloLeaderBoard/Score)
 extern void U3CU3Ec_U3CToListLowToHighU3Eb__18_0_m46BB2B7C6332E4131D4CDFCE2B99317318A465E2 (void);
-// 0x00000065 System.Int32 dreamloLeaderBoard/<>c::<ToListHighToLow>b__19_0(dreamloLeaderBoard/Score,dreamloLeaderBoard/Score)
+// 0x00000069 System.Int32 dreamloLeaderBoard/<>c::<ToListHighToLow>b__19_0(dreamloLeaderBoard/Score,dreamloLeaderBoard/Score)
 extern void U3CU3Ec_U3CToListHighToLowU3Eb__19_0_mCB94C720BE247F406BD87316BA70BD07E1022177 (void);
-// 0x00000066 System.Void LeaderBoardSample::Start()
+// 0x0000006A System.Void LeaderBoardSample::Start()
 extern void LeaderBoardSample_Start_mBD25ED711B355880A6E7EC4889204D3F58E9CF12 (void);
-// 0x00000067 System.Void LeaderBoardSample::Update()
+// 0x0000006B System.Void LeaderBoardSample::Update()
 extern void LeaderBoardSample_Update_m34BF3ABEE2121E6AD473925B83EC73B983CEBA42 (void);
-// 0x00000068 System.Void LeaderBoardSample::OnGUI()
+// 0x0000006C System.Void LeaderBoardSample::OnGUI()
 extern void LeaderBoardSample_OnGUI_m56C881A81DCCA400F5C80412EF3E2DD4FB630F64 (void);
-// 0x00000069 System.Void LeaderBoardSample::.ctor()
+// 0x0000006D System.Void LeaderBoardSample::.ctor()
 extern void LeaderBoardSample__ctor_m12C337646366E9ADE81285EE13BA43528526D37E (void);
-// 0x0000006A dreamloPromoCode dreamloPromoCode::GetSceneDreamloPromoCode()
+// 0x0000006E dreamloPromoCode dreamloPromoCode::GetSceneDreamloPromoCode()
 extern void dreamloPromoCode_GetSceneDreamloPromoCode_mBC1ECFAE3E8AAEDE07FB88FA784A90670F09AEF9 (void);
-// 0x0000006B System.Void dreamloPromoCode::RedeemCode(System.String)
+// 0x0000006F System.Void dreamloPromoCode::RedeemCode(System.String)
 extern void dreamloPromoCode_RedeemCode_m38F6652307171AA5FFFCC1BB91AD02712B31651F (void);
-// 0x0000006C System.Collections.IEnumerator dreamloPromoCode::WebService(System.String)
+// 0x00000070 System.Collections.IEnumerator dreamloPromoCode::WebService(System.String)
 extern void dreamloPromoCode_WebService_m7E598214AC139C1FD5F535813A35C2CABF1EAEBE (void);
-// 0x0000006D System.Void dreamloPromoCode::.ctor()
+// 0x00000071 System.Void dreamloPromoCode::.ctor()
 extern void dreamloPromoCode__ctor_m96EED30834166353BA74B92C5E93623BEC5356E7 (void);
-// 0x0000006E System.Void dreamloPromoCode/<WebService>d__8::.ctor(System.Int32)
+// 0x00000072 System.Void dreamloPromoCode/<WebService>d__8::.ctor(System.Int32)
 extern void U3CWebServiceU3Ed__8__ctor_m1DDE835929CB5251B68FF1F99A4CA2B2D38E7D4D (void);
-// 0x0000006F System.Void dreamloPromoCode/<WebService>d__8::System.IDisposable.Dispose()
+// 0x00000073 System.Void dreamloPromoCode/<WebService>d__8::System.IDisposable.Dispose()
 extern void U3CWebServiceU3Ed__8_System_IDisposable_Dispose_m24D3144B3EC467D670DD992446077DF15729B834 (void);
-// 0x00000070 System.Boolean dreamloPromoCode/<WebService>d__8::MoveNext()
+// 0x00000074 System.Boolean dreamloPromoCode/<WebService>d__8::MoveNext()
 extern void U3CWebServiceU3Ed__8_MoveNext_m1B745FBB8C75DD421E85AA40829E439C8B05C14B (void);
-// 0x00000071 System.Void dreamloPromoCode/<WebService>d__8::<>m__Finally1()
+// 0x00000075 System.Void dreamloPromoCode/<WebService>d__8::<>m__Finally1()
 extern void U3CWebServiceU3Ed__8_U3CU3Em__Finally1_m16A846D372BBCCA724D8BCCE57D31A6911BA87E1 (void);
-// 0x00000072 System.Object dreamloPromoCode/<WebService>d__8::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000076 System.Object dreamloPromoCode/<WebService>d__8::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CWebServiceU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA8C2968CF3A498A17BDE09530ABB06A9BB298685 (void);
-// 0x00000073 System.Void dreamloPromoCode/<WebService>d__8::System.Collections.IEnumerator.Reset()
+// 0x00000077 System.Void dreamloPromoCode/<WebService>d__8::System.Collections.IEnumerator.Reset()
 extern void U3CWebServiceU3Ed__8_System_Collections_IEnumerator_Reset_m080F548A046ADBBD602737544B67ADF3BAD56C3B (void);
-// 0x00000074 System.Object dreamloPromoCode/<WebService>d__8::System.Collections.IEnumerator.get_Current()
+// 0x00000078 System.Object dreamloPromoCode/<WebService>d__8::System.Collections.IEnumerator.get_Current()
 extern void U3CWebServiceU3Ed__8_System_Collections_IEnumerator_get_Current_mB5EEC69CCF400A81ED0E936BF39824D6E337B534 (void);
-static Il2CppMethodPointer s_methodPointers[116] = 
+// 0x00000079 UnityEngine.GameObject UnityEngine.XR.ARFoundation.Samples.PlaceOnPlane::get_placedPrefab()
+extern void PlaceOnPlane_get_placedPrefab_m763D6F073D3EDF7415E1E32E10AA426967DCDA18 (void);
+// 0x0000007A System.Void UnityEngine.XR.ARFoundation.Samples.PlaceOnPlane::set_placedPrefab(UnityEngine.GameObject)
+extern void PlaceOnPlane_set_placedPrefab_mB1D74F674553C7DD3E35919E9B3510A2A72300D9 (void);
+// 0x0000007B UnityEngine.GameObject UnityEngine.XR.ARFoundation.Samples.PlaceOnPlane::get_spawnedObject()
+extern void PlaceOnPlane_get_spawnedObject_m35FA877FA58C9C21BD450CDA01EF4BF5F6189C09 (void);
+// 0x0000007C System.Void UnityEngine.XR.ARFoundation.Samples.PlaceOnPlane::set_spawnedObject(UnityEngine.GameObject)
+extern void PlaceOnPlane_set_spawnedObject_m4831A436BFFF40945FCE6376CF88870D4E0DFA87 (void);
+// 0x0000007D System.Void UnityEngine.XR.ARFoundation.Samples.PlaceOnPlane::Awake()
+extern void PlaceOnPlane_Awake_mE68544675C14502921A783F67B2D7B80E00BDBB9 (void);
+// 0x0000007E System.Boolean UnityEngine.XR.ARFoundation.Samples.PlaceOnPlane::TryGetTouchPosition(UnityEngine.Vector2&)
+extern void PlaceOnPlane_TryGetTouchPosition_mE940E600E9FAB1C3D9F182B04A920CAE6F39C61C (void);
+// 0x0000007F System.Void UnityEngine.XR.ARFoundation.Samples.PlaceOnPlane::Update()
+extern void PlaceOnPlane_Update_mDAFDB8C7CABA3CFA3E6C422A51585A3159C5B807 (void);
+// 0x00000080 System.Void UnityEngine.XR.ARFoundation.Samples.PlaceOnPlane::.ctor()
+extern void PlaceOnPlane__ctor_m6DD8D183AC8B0486B5791C6AF332B305E3CAA1AE (void);
+// 0x00000081 System.Void UnityEngine.XR.ARFoundation.Samples.PlaceOnPlane::.cctor()
+extern void PlaceOnPlane__cctor_mDE3040EFFFB02FA683F04061F2ACC23E26010E76 (void);
+// 0x00000082 UnityEngine.GameObject UnityEngine.XR.ARFoundation.Samples.BackButton::get_backButton()
+extern void BackButton_get_backButton_m6C42C5B8C3C5D726A2A638614C3C1004F8FF6B9D (void);
+// 0x00000083 System.Void UnityEngine.XR.ARFoundation.Samples.BackButton::set_backButton(UnityEngine.GameObject)
+extern void BackButton_set_backButton_mA20F4E8B6A0CAA1FCE697861488007DEB11588E7 (void);
+// 0x00000084 System.Void UnityEngine.XR.ARFoundation.Samples.BackButton::Start()
+extern void BackButton_Start_m91D83EF34477C02DEDEACF640208D15735EA3526 (void);
+// 0x00000085 System.Void UnityEngine.XR.ARFoundation.Samples.BackButton::Update()
+extern void BackButton_Update_m59F6AD5F9B15A73F885351A5521812C3E4253B8B (void);
+// 0x00000086 System.Void UnityEngine.XR.ARFoundation.Samples.BackButton::BackButtonPressed()
+extern void BackButton_BackButtonPressed_m3AE314F7F35880CCCC2D7C1D37075DF582A7CEEB (void);
+// 0x00000087 System.Void UnityEngine.XR.ARFoundation.Samples.BackButton::.ctor()
+extern void BackButton__ctor_m99B8ED800DE45430146458136205319B7DE77498 (void);
+static Il2CppMethodPointer s_methodPointers[135] = 
 {
 	AddButtons_Awake_m9B6432D7F4EBC6D9DE7B099C19B30CDB697EB7DB,
 	AddButtons__ctor_mE2785312B767E00F0CE1C02BA64C10D2B45BB4DE,
@@ -318,6 +356,10 @@ static Il2CppMethodPointer s_methodPointers[116] =
 	U3CTimerTakeU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m4BA7CEA1C4F021E614116EDB4260019948A203AA,
 	U3CTimerTakeU3Ed__5_System_Collections_IEnumerator_Reset_mB53D527BD0D43788F95C986640BD45902CE6D6DC,
 	U3CTimerTakeU3Ed__5_System_Collections_IEnumerator_get_Current_mE49890DFB7E2E350CFC1854A27ED35FBBF962D96,
+	TimerGameOver_Start_m533BA387E1624D57FE903344BCC1FDC1A204FB22,
+	TimerGameOver_countDownTimer_m65EAE829BE84F4D149ECEBB226D33B422E08CDC3,
+	TimerGameOver_Update_mCA60160C0A7EDE5ACBFC464D42172262270AF881,
+	TimerGameOver__ctor_m0476F209ED70883F001DA769EEA203A9A7FB728C,
 	dreamloLeaderBoard_Start_mC671421D8C33114A20BF748AF5E645432D04879A,
 	dreamloLeaderBoard_GetSceneDreamloLeaderboard_mC07124272D9B8F318A62A89087ABA5DC0E7D5B16,
 	dreamloLeaderBoard_AddScore_m057228BED5D1A7A48436E94311B9A6FDCCCE3FFA,
@@ -362,132 +404,166 @@ static Il2CppMethodPointer s_methodPointers[116] =
 	U3CWebServiceU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA8C2968CF3A498A17BDE09530ABB06A9BB298685,
 	U3CWebServiceU3Ed__8_System_Collections_IEnumerator_Reset_m080F548A046ADBBD602737544B67ADF3BAD56C3B,
 	U3CWebServiceU3Ed__8_System_Collections_IEnumerator_get_Current_mB5EEC69CCF400A81ED0E936BF39824D6E337B534,
+	PlaceOnPlane_get_placedPrefab_m763D6F073D3EDF7415E1E32E10AA426967DCDA18,
+	PlaceOnPlane_set_placedPrefab_mB1D74F674553C7DD3E35919E9B3510A2A72300D9,
+	PlaceOnPlane_get_spawnedObject_m35FA877FA58C9C21BD450CDA01EF4BF5F6189C09,
+	PlaceOnPlane_set_spawnedObject_m4831A436BFFF40945FCE6376CF88870D4E0DFA87,
+	PlaceOnPlane_Awake_mE68544675C14502921A783F67B2D7B80E00BDBB9,
+	PlaceOnPlane_TryGetTouchPosition_mE940E600E9FAB1C3D9F182B04A920CAE6F39C61C,
+	PlaceOnPlane_Update_mDAFDB8C7CABA3CFA3E6C422A51585A3159C5B807,
+	PlaceOnPlane__ctor_m6DD8D183AC8B0486B5791C6AF332B305E3CAA1AE,
+	PlaceOnPlane__cctor_mDE3040EFFFB02FA683F04061F2ACC23E26010E76,
+	BackButton_get_backButton_m6C42C5B8C3C5D726A2A638614C3C1004F8FF6B9D,
+	BackButton_set_backButton_mA20F4E8B6A0CAA1FCE697861488007DEB11588E7,
+	BackButton_Start_m91D83EF34477C02DEDEACF640208D15735EA3526,
+	BackButton_Update_m59F6AD5F9B15A73F885351A5521812C3E4253B8B,
+	BackButton_BackButtonPressed_m3AE314F7F35880CCCC2D7C1D37075DF582A7CEEB,
+	BackButton__ctor_m99B8ED800DE45430146458136205319B7DE77498,
 };
-static const int32_t s_InvokerIndices[116] = 
+static const int32_t s_InvokerIndices[135] = 
 {
-	1862,
-	1862,
-	1862,
-	1862,
-	1862,
-	1862,
-	1862,
-	1862,
-	1862,
-	1862,
-	1826,
-	1862,
-	1528,
-	1862,
-	1862,
-	1862,
-	1862,
-	1862,
-	1862,
-	1513,
-	1862,
-	1849,
-	1826,
-	1862,
-	1826,
-	1862,
-	1862,
-	1862,
-	1826,
-	1862,
-	1513,
-	1862,
-	1849,
-	1826,
-	1862,
-	1826,
-	1862,
-	1862,
-	1862,
-	1862,
-	1862,
-	1862,
-	1862,
-	1826,
-	1862,
-	1513,
-	1862,
-	1849,
-	1826,
-	1862,
-	1826,
-	1862,
-	1862,
-	1862,
-	1862,
-	1862,
-	1862,
-	1862,
-	1862,
-	1862,
-	1595,
-	1862,
-	1862,
-	1862,
-	1826,
-	1862,
-	1513,
-	1862,
-	1849,
-	1826,
-	1862,
-	1826,
-	1862,
-	3102,
-	923,
-	571,
-	372,
-	923,
-	571,
-	372,
-	1862,
-	1528,
-	1179,
-	1826,
-	1826,
-	1826,
-	1826,
-	1179,
-	1104,
-	1862,
-	1513,
-	1862,
-	1849,
-	1862,
-	1826,
-	1862,
-	1826,
-	3118,
-	1862,
-	659,
-	659,
-	1862,
-	1862,
-	1862,
-	1862,
-	3102,
-	1528,
-	1179,
-	1862,
-	1513,
-	1862,
-	1849,
-	1862,
-	1826,
-	1862,
-	1826,
+	2055,
+	2055,
+	2055,
+	2055,
+	2055,
+	2055,
+	2055,
+	2055,
+	2055,
+	2055,
+	2019,
+	2055,
+	1688,
+	2055,
+	2055,
+	2055,
+	2055,
+	2055,
+	2055,
+	1672,
+	2055,
+	2042,
+	2019,
+	2055,
+	2019,
+	2055,
+	2055,
+	2055,
+	2019,
+	2055,
+	1672,
+	2055,
+	2042,
+	2019,
+	2055,
+	2019,
+	2055,
+	2055,
+	2055,
+	2055,
+	2055,
+	2055,
+	2055,
+	2019,
+	2055,
+	1672,
+	2055,
+	2042,
+	2019,
+	2055,
+	2019,
+	2055,
+	2055,
+	2055,
+	2055,
+	2055,
+	2055,
+	2055,
+	2055,
+	2055,
+	1758,
+	2055,
+	2055,
+	2055,
+	2019,
+	2055,
+	1672,
+	2055,
+	2042,
+	2019,
+	2055,
+	2019,
+	2055,
+	2055,
+	2055,
+	2055,
+	2055,
+	3419,
+	989,
+	607,
+	388,
+	989,
+	607,
+	388,
+	2055,
+	1688,
+	1273,
+	2019,
+	2019,
+	2019,
+	2019,
+	1273,
+	1194,
+	2055,
+	1672,
+	2055,
+	2042,
+	2055,
+	2019,
+	2055,
+	2019,
+	3435,
+	2055,
+	704,
+	704,
+	2055,
+	2055,
+	2055,
+	2055,
+	3419,
+	1688,
+	1273,
+	2055,
+	1672,
+	2055,
+	2042,
+	2055,
+	2019,
+	2055,
+	2019,
+	2019,
+	1688,
+	2019,
+	1688,
+	2055,
+	1383,
+	2055,
+	2055,
+	3435,
+	2019,
+	1688,
+	2055,
+	2055,
+	2055,
+	2055,
 };
 extern const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	116,
+	135,
 	s_methodPointers,
 	0,
 	NULL,
