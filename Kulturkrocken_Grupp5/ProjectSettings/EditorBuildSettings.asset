@@ -5,12 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: "Assets/DY/Utst\xE4llningar.unity"
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 19f4c13519f7cc54299f19272923e004
+  - enabled: 1
+    path: Assets/Scenes/GamePlay.unity
+    guid: 6796c4dbb46aa7548824d56c5b350465
+  - enabled: 1
+    path: Assets/Scenes/VideoPlay.unity
     guid: 8204201b20e6e431085b9bc36f1c30fc
-  - enabled: 0
-    path: Assets/Scenes/ScoreBoard.unity
-    guid: 10007bb71d2a9d94c94c6b9e355ede98
+  - enabled: 1
+    path: Assets/Scenes/LeaderBoard.unity
+    guid: 00f54502ebc45554a8ec6fc8574f30fb
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: ad6385194afeea842971590855247245, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 8597d34d2c0be1e459bbb1ce47bbfc01, type: 2}

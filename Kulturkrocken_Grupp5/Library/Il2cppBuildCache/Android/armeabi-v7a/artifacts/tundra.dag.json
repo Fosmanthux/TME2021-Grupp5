@@ -22,6 +22,7 @@
       "Inputs": [
         "D:/DSV/TME/TME2021-Grupp5/Kulturkrocken_Grupp5/Temp/StagingArea/assets/bin/Data/Managed",
         "D:/DSV/TME/TME2021-Grupp5/Kulturkrocken_Grupp5/Temp/StagingArea/assets/bin/Data/Managed/Assembly-CSharp.dll",
+        "D:/DSV/TME/TME2021-Grupp5/Kulturkrocken_Grupp5/Temp/StagingArea/assets/bin/Data/Managed/com.unity.multiplayer-hlapi.Runtime.dll",
         "D:/DSV/TME/TME2021-Grupp5/Kulturkrocken_Grupp5/Temp/StagingArea/assets/bin/Data/Managed/Mono.Security.dll",
         "D:/DSV/TME/TME2021-Grupp5/Kulturkrocken_Grupp5/Temp/StagingArea/assets/bin/Data/Managed/mscorlib.dll",
         "D:/DSV/TME/TME2021-Grupp5/Kulturkrocken_Grupp5/Temp/StagingArea/assets/bin/Data/Managed/System.Configuration.dll",
@@ -39,6 +40,7 @@
         "D:/DSV/TME/TME2021-Grupp5/Kulturkrocken_Grupp5/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.GridModule.dll",
         "D:/DSV/TME/TME2021-Grupp5/Kulturkrocken_Grupp5/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.IMGUIModule.dll",
         "D:/DSV/TME/TME2021-Grupp5/Kulturkrocken_Grupp5/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.InputLegacyModule.dll",
+        "D:/DSV/TME/TME2021-Grupp5/Kulturkrocken_Grupp5/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.JSONSerializeModule.dll",
         "D:/DSV/TME/TME2021-Grupp5/Kulturkrocken_Grupp5/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.Physics2DModule.dll",
         "D:/DSV/TME/TME2021-Grupp5/Kulturkrocken_Grupp5/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.PhysicsModule.dll",
         "D:/DSV/TME/TME2021-Grupp5/Kulturkrocken_Grupp5/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.SharedInternalsModule.dll",
@@ -48,7 +50,9 @@
         "D:/DSV/TME/TME2021-Grupp5/Kulturkrocken_Grupp5/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.TilemapModule.dll",
         "D:/DSV/TME/TME2021-Grupp5/Kulturkrocken_Grupp5/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.UI.dll",
         "D:/DSV/TME/TME2021-Grupp5/Kulturkrocken_Grupp5/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.UIModule.dll",
+        "D:/DSV/TME/TME2021-Grupp5/Kulturkrocken_Grupp5/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.UNETModule.dll",
         "D:/DSV/TME/TME2021-Grupp5/Kulturkrocken_Grupp5/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.UnityWebRequestModule.dll",
+        "D:/DSV/TME/TME2021-Grupp5/Kulturkrocken_Grupp5/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.VideoModule.dll",
         "D:/DSV/TME/TME2021-Grupp5/Kulturkrocken_Grupp5/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.XRModule.dll"
       ],
       "Outputs": [

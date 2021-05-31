@@ -13,6 +13,6 @@ public class ScoreCell : MonoBehaviour
     public void SetModel (dreamloLeaderBoard.Score data)
     {
         nameText.text = data.playerName;
-        scoreText.text = data.score * opposite + " tries";
+        scoreText.text = data.score * opposite + " turns";
     }
 }

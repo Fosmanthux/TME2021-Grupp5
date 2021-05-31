@@ -57,18 +57,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ScoreCell.cs" />
-    <Compile Include="Assets\ZM NEW\Assets\Scripts\MainMenu.cs" />
-    <Compile Include="Assets\MemoryGame\Assets\Scripts\GameController.cs" />
-    <Compile Include="Assets\ZM NEW\Assets\Scripts\PanelOpener.cs" />
+    <Compile Include="Assets\Scripts\LoadScene.cs" />
+    <Compile Include="Assets\Scripts\GameController.cs" />
+    <Compile Include="Assets\Scripts\PanelOpener.cs" />
     <Compile Include="Assets\Scripts\GetGPS.cs" />
     <Compile Include="Assets\dreamlo\dreamloPromoCode.cs" />
     <Compile Include="Assets\Scripts\dreamloLeaderBoard.cs" />
     <Compile Include="Assets\Scripts\LeaderBoardManager.cs" />
-    <Compile Include="Assets\timer.cs" />
     <Compile Include="Assets\dreamlo\LeaderBoardSample.cs" />
-    <Compile Include="Assets\MemoryGame\Assets\Scripts\AddButtons.cs" />
-    <Compile Include="Assets\MemoryGame\Assets\Scripts\Timer.cs" />
-    <Compile Include="Assets\Scripts\PlayerPrefsManager.cs" />
+    <Compile Include="Assets\Scripts\AddButtons.cs" />
+    <Compile Include="Assets\Scripts\Timer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\dreamlo\README_FIRST.txt" />

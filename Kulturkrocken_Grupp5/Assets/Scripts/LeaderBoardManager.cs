@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class LeaderBoardManager : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class LeaderBoardManager : MonoBehaviour
 
 	const string ScoreKey = "Score";
 
+	public Text GPS;
 	public Text recordText;
 	public GameObject scoreCellPrefab;
 	public int maxCounts = 5;
@@ -16,8 +18,10 @@ public class LeaderBoardManager : MonoBehaviour
 	public GameObject uploadBtn;
 
 	public bool onSpot = false;
-	public string E_latitude;
-	public string N_Longitude;
+	public bool refreshing = true;
+
+	public float latitude;
+	public float longitude;
 
 	private int recordScore;
 	private string playerName;
@@ -25,8 +29,8 @@ public class LeaderBoardManager : MonoBehaviour
 	private int count = 0;
 	private int opposite = -1;
 
-	private string myN;
-	private string myE;
+	private float myN;
+	private float myE;
 
 	List<dreamloLeaderBoard.Score> scoreList;
 
@@ -37,7 +41,6 @@ public class LeaderBoardManager : MonoBehaviour
 		dl.GetScores();
 
 		LoadPrefs();
-
 		recordText.text = "Finished in turn " + recordScore;
 
 		StartCoroutine(StartGPS());
@@ -45,26 +48,46 @@ public class LeaderBoardManager : MonoBehaviour
 
     void Update()
     {
-		scoreList = dl.ToListHighToLow();
+		CheckLocation();
 
-		if (scoreList != null)
+		scoreList = dl.ToListHighToLow();
+		if (scoreList.Count > 0 && refreshing == true)
 		{
-			int maxToDisplay = maxCounts;
-			foreach (var currentScore in scoreList)
-			{
+			DisplayList();
+			refreshing = false;
+		}
+
+		if (onSpot == false)
+        {
+			uploadBtn.SetActive(false);
+        }
+        else if (onSpot == true)
+        {
+			uploadBtn.SetActive(true);
+		}
+	}
+
+	public void Refresh()
+    {
+		//myN = latitude;
+		//myE = longitude;
+    }
+
+	void DisplayList()
+    {
+        Debug.Log(scoreList[0]);
+		int maxToDisplay = maxCounts;
+		foreach (var currentScore in scoreList)
+		{
 				count++;
 				Debug.Log(count);
-				if (count >= maxCounts)
-				{
-					this.enabled = false;
-				}
-				if (count <= maxCounts)
-				{
+				if (count > maxCounts)
+					break;
+			//if (count <= maxCounts)
+			//{
 				var cell = Instantiate(scoreCellPrefab, transform);
-					cell.GetComponent<ScoreCell>().SetModel(currentScore);
-					this.enabled = false;
-				}
-			}
+				cell.GetComponent<ScoreCell>().SetModel(currentScore);
+			//}
 		}
 		Debug.Log("finished");
 	}
@@ -78,20 +101,24 @@ public class LeaderBoardManager : MonoBehaviour
 
 	void LoadPrefs()
 	{
-		var score = PlayerPrefs.GetInt(ScoreKey, 0);
+		var score = PlayerPrefs.GetInt(ScoreKey);
 		this.recordScore = score;
 	}
 
 	public void CheckLocation()
     {
-		if (E_latitude == myE && N_Longitude == myN)
+		float Nplus = latitude + 0.0001f;
+		float Nminus = latitude - 0.0001f;
+		float Eplus = longitude + 0.0001f;
+		float Eminus = longitude - 0.0001f;
+
+		if (Nminus < myN && myN < Nplus && Eminus < myE && myE < Eplus)
         {
 			onSpot = true;
-			uploadBtn.SetActive(true);
         }
         else
         {
-			uploadBtn.SetActive(false);
+			onSpot = false;
         }
     }
 
@@ -99,12 +126,12 @@ public class LeaderBoardManager : MonoBehaviour
     {
 		if (!Input.location.isEnabledByUser)
         {
-			Debug.Log("Location disabled");
-			yield break;
+			GPS.text = "Location disabled";
+			yield return new WaitForSeconds(3);
         }
         else
         {
-			Input.location.Start(10.0f, 10.0f);
+			Input.location.Start(1.0f, 1.0f);
         }
 
 		int maxWait = 20;
@@ -115,18 +142,19 @@ public class LeaderBoardManager : MonoBehaviour
         }
 		if (maxWait < 1)
         {
-			Debug.Log("Overtime");
+			GPS.text = "Overtime";
 			yield break;
         }
 		if (Input.location.status == LocationServiceStatus.Failed)
         {
-			Debug.Log("Failed");
+			GPS.text = "Failed";
 			yield break;
         }
         else
         {
-			myN = Input.location.lastData.latitude.ToString();
-			myE = Input.location.lastData.longitude.ToString();
+			myN = Input.location.lastData.latitude;
+			myE = Input.location.lastData.longitude;
+			GPS.text = myN + ", " + myE;
 			Input.location.Stop();
 			yield return null;
 		}
