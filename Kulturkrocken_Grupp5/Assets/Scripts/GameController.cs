@@ -9,7 +9,8 @@ public class GameController : MonoBehaviour
     [SerializeField]
     private Sprite bgImage;
 
-    public Sprite[] cards;
+    //public Sprite[] cards;
+    public List<Sprite> cards;
     public List<Sprite> gameCards = new List<Sprite>();
     public List<Button> btns = new List<Button>();
 
@@ -63,7 +64,7 @@ public class GameController : MonoBehaviour
     {
         GameObject[] objects = GameObject.FindGameObjectsWithTag ("MemoryCardButton");
         
-        for (int i = 0; i <objects.Length; i++)
+        for (int i = 0; i < objects.Length; i++)
         {
             btns.Add(objects[i].GetComponent<Button>());
             btns[i].image.sprite = bgImage;
@@ -74,8 +75,9 @@ public class GameController : MonoBehaviour
     {
         int looper = btns.Count;
         int index = 0;
+        Shuffle(cards);
 
-        for(int i = 0; i < looper; i++)
+        for (int i = 0; i < looper; i++)
         {
             if(index == looper / 2)
             {
