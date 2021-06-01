@@ -58,10 +58,14 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\ScoreCell.cs" />
     <Compile Include="Assets\Scripts\LoadScene.cs" />
+    <Compile Include="Assets\Scripts\PlacementObject.cs" />
     <Compile Include="Assets\Scripts\UX\BackButton.cs" />
     <Compile Include="Assets\Scripts\TimerGameOver.cs" />
+    <Compile Include="Assets\Scripts\ARFeatheredPlaneMeshVisualizer.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Scripts\PanelOpener.cs" />
+    <Compile Include="Assets\Scripts\AutoPlacementOfObject.cs" />
+    <Compile Include="Assets\Scripts\FadePlaneOnBoundaryChange.cs" />
     <Compile Include="Assets\Scripts\GetGPS.cs" />
     <Compile Include="Assets\dreamlo\dreamloPromoCode.cs" />
     <Compile Include="Assets\Scripts\dreamloLeaderBoard.cs" />
@@ -70,10 +74,7 @@
     <Compile Include="Assets\dreamlo\LeaderBoardSample.cs" />
     <Compile Include="Assets\Scripts\AddButtons.cs" />
     <Compile Include="Assets\Scripts\Timer.cs" />
-    <Compile Include="Assets\Scripts\AutoPlacementOfObject.cs" />
-    <Compile Include="Assets\Scripts\PlacementObject.cs" />
-    <Compile Include="Assets\Scripts\ARFeatheredPlaneMeshVisualizer.cs" />
-    <Compile Include="Assets\Scripts\FadePlaneOnBoundaryChange.cs" />
+    <Compile Include="Assets\Scripts\PlaneSetupManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -739,6 +740,9 @@
     </Reference>
     <Reference Include="Unity.XR.ARFoundation">
       <HintPath>Library\ScriptAssemblies\Unity.XR.ARFoundation.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

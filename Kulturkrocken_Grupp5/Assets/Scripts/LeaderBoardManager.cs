@@ -16,6 +16,7 @@ public class LeaderBoardManager : MonoBehaviour
 	public int maxCounts = 5;
 	public Text inputName;
 	public GameObject uploadBtn;
+	public GameObject disBtn;
 
 	public bool onSpot = false;
 	public bool refreshing = true;
@@ -41,7 +42,7 @@ public class LeaderBoardManager : MonoBehaviour
 		dl.GetScores();
 
 		LoadPrefs();
-		recordText.text = "Finished in turn " + recordScore;
+		recordText.text = "Finished on turn " + recordScore;
 
 		StartCoroutine(StartGPS());
 	}
@@ -60,10 +61,12 @@ public class LeaderBoardManager : MonoBehaviour
 		if (onSpot == false)
         {
 			uploadBtn.SetActive(false);
+			disBtn.SetActive(true);
         }
         else if (onSpot == true)
         {
 			uploadBtn.SetActive(true);
+			disBtn.SetActive(false);
 		}
 	}
 
@@ -126,8 +129,8 @@ public class LeaderBoardManager : MonoBehaviour
     {
 		if (!Input.location.isEnabledByUser)
         {
-			GPS.text = "Location disabled";
-			yield return new WaitForSeconds(3);
+			GPS.text = "Please enable location service on this device";
+			yield break;
         }
         else
         {
@@ -142,19 +145,19 @@ public class LeaderBoardManager : MonoBehaviour
         }
 		if (maxWait < 1)
         {
-			GPS.text = "Overtime";
+			GPS.text = "Request time out, please try again later";
 			yield break;
         }
 		if (Input.location.status == LocationServiceStatus.Failed)
         {
-			GPS.text = "Failed";
+			GPS.text = "Request location failed, please try again later";
 			yield break;
         }
         else
         {
 			myN = Input.location.lastData.latitude;
 			myE = Input.location.lastData.longitude;
-			GPS.text = "On Spot";
+			GPS.text = "Request location succeeded";
 			Input.location.Stop();
 			yield return null;
 		}

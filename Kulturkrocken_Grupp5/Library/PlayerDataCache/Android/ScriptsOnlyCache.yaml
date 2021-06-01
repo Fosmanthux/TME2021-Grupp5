@@ -9,7 +9,6 @@ ScriptsOnlyBuild:
     - GetGPS
     - LeaderBoardManager
     - LoadScene
-    - PanelOpener
     - PlacementObject
     - ScoreCell
     - TimerGameOver
@@ -60,10 +59,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GridLayoutGroup
     - UnityEngine.UI.Image
     - UnityEngine.UI.InputField
-    - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
-    com.unity.multiplayer-hlapi.Runtime.dll:
-    - UnityEngine.Networking.NetworkCallbacks
   sceneClasses:
     Assets/Scenes/GamePlay.unity:
     - Class: 1
@@ -83,29 +79,29 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1450}
+      Script: {instanceID: 1476}
     - Class: 114
-      Script: {instanceID: 1504}
+      Script: {instanceID: 1478}
     - Class: 114
-      Script: {instanceID: 1636}
+      Script: {instanceID: 1662}
     - Class: 114
-      Script: {instanceID: 2024}
+      Script: {instanceID: 2056}
     - Class: 114
-      Script: {instanceID: 2338}
+      Script: {instanceID: 2384}
     - Class: 114
-      Script: {instanceID: 2346}
+      Script: {instanceID: 2392}
     - Class: 114
-      Script: {instanceID: 2452}
+      Script: {instanceID: 2500}
     - Class: 114
-      Script: {instanceID: 2616}
+      Script: {instanceID: 2676}
     - Class: 114
-      Script: {instanceID: 2816}
+      Script: {instanceID: 2878}
     - Class: 114
-      Script: {instanceID: 2886}
+      Script: {instanceID: 2950}
     - Class: 114
-      Script: {instanceID: 4404}
+      Script: {instanceID: 4500}
     - Class: 114
-      Script: {instanceID: 4556}
+      Script: {instanceID: 4656}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -144,35 +140,35 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1450}
+      Script: {instanceID: 1476}
     - Class: 114
-      Script: {instanceID: 1504}
+      Script: {instanceID: 1478}
     - Class: 114
-      Script: {instanceID: 1614}
+      Script: {instanceID: 1640}
     - Class: 114
-      Script: {instanceID: 1636}
+      Script: {instanceID: 1662}
     - Class: 114
-      Script: {instanceID: 2024}
+      Script: {instanceID: 2056}
     - Class: 114
-      Script: {instanceID: 2338}
+      Script: {instanceID: 2384}
     - Class: 114
-      Script: {instanceID: 2452}
+      Script: {instanceID: 2500}
     - Class: 114
-      Script: {instanceID: 2616}
+      Script: {instanceID: 2676}
     - Class: 114
-      Script: {instanceID: 2668}
+      Script: {instanceID: 2728}
     - Class: 114
-      Script: {instanceID: 2816}
+      Script: {instanceID: 2878}
     - Class: 114
-      Script: {instanceID: 3534}
+      Script: {instanceID: 3610}
     - Class: 114
-      Script: {instanceID: 3616}
+      Script: {instanceID: 3692}
     - Class: 114
-      Script: {instanceID: 3732}
+      Script: {instanceID: 3808}
     - Class: 114
-      Script: {instanceID: 3738}
+      Script: {instanceID: 3814}
     - Class: 114
-      Script: {instanceID: 4556}
+      Script: {instanceID: 4656}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -209,33 +205,29 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1450}
+      Script: {instanceID: 1476}
     - Class: 114
-      Script: {instanceID: 1504}
+      Script: {instanceID: 1478}
     - Class: 114
-      Script: {instanceID: 1636}
+      Script: {instanceID: 1662}
     - Class: 114
-      Script: {instanceID: 1664}
+      Script: {instanceID: 1768}
     - Class: 114
-      Script: {instanceID: 1742}
+      Script: {instanceID: 2052}
     - Class: 114
-      Script: {instanceID: 2020}
+      Script: {instanceID: 2056}
     - Class: 114
-      Script: {instanceID: 2024}
+      Script: {instanceID: 2384}
     - Class: 114
-      Script: {instanceID: 2338}
+      Script: {instanceID: 2500}
     - Class: 114
-      Script: {instanceID: 2452}
+      Script: {instanceID: 2676}
     - Class: 114
-      Script: {instanceID: 2616}
+      Script: {instanceID: 2878}
     - Class: 114
-      Script: {instanceID: 2816}
+      Script: {instanceID: 3984}
     - Class: 114
-      Script: {instanceID: 2954}
-    - Class: 114
-      Script: {instanceID: 3906}
-    - Class: 114
-      Script: {instanceID: 4174}
+      Script: {instanceID: 4256}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -288,61 +280,61 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1450}
+      Script: {instanceID: 1476}
     - Class: 114
-      Script: {instanceID: 1484}
+      Script: {instanceID: 1478}
     - Class: 114
-      Script: {instanceID: 1504}
+      Script: {instanceID: 1512}
     - Class: 114
-      Script: {instanceID: 1592}
+      Script: {instanceID: 1618}
     - Class: 114
-      Script: {instanceID: 1636}
+      Script: {instanceID: 1662}
     - Class: 114
-      Script: {instanceID: 1742}
+      Script: {instanceID: 1768}
     - Class: 114
-      Script: {instanceID: 2024}
+      Script: {instanceID: 2056}
     - Class: 114
-      Script: {instanceID: 2338}
+      Script: {instanceID: 2286}
     - Class: 114
-      Script: {instanceID: 2368}
+      Script: {instanceID: 2384}
     - Class: 114
-      Script: {instanceID: 2452}
+      Script: {instanceID: 2416}
     - Class: 114
-      Script: {instanceID: 2616}
+      Script: {instanceID: 2500}
     - Class: 114
-      Script: {instanceID: 2796}
+      Script: {instanceID: 2654}
     - Class: 114
-      Script: {instanceID: 2816}
+      Script: {instanceID: 2676}
     - Class: 114
-      Script: {instanceID: 2928}
+      Script: {instanceID: 2858}
     - Class: 114
-      Script: {instanceID: 3096}
+      Script: {instanceID: 2878}
     - Class: 114
-      Script: {instanceID: 3100}
+      Script: {instanceID: 2992}
     - Class: 114
-      Script: {instanceID: 3342}
+      Script: {instanceID: 3162}
     - Class: 114
-      Script: {instanceID: 3458}
+      Script: {instanceID: 3166}
     - Class: 114
-      Script: {instanceID: 3512}
+      Script: {instanceID: 3290}
     - Class: 114
-      Script: {instanceID: 3756}
+      Script: {instanceID: 3414}
     - Class: 114
-      Script: {instanceID: 3978}
+      Script: {instanceID: 3530}
     - Class: 114
-      Script: {instanceID: 4180}
+      Script: {instanceID: 3586}
     - Class: 114
-      Script: {instanceID: 4336}
+      Script: {instanceID: 3588}
     - Class: 114
-      Script: {instanceID: 4430}
+      Script: {instanceID: 3832}
     - Class: 114
-      Script: {instanceID: 16952}
+      Script: {instanceID: 4056}
     - Class: 114
-      Script: {instanceID: 16956}
+      Script: {instanceID: 4264}
     - Class: 114
-      Script: {instanceID: 38286}
+      Script: {instanceID: 4432}
     - Class: 114
-      Script: {instanceID: 38292}
+      Script: {instanceID: 4526}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -386,6 +378,12 @@ ScriptsOnlyBuild:
     className: Button
   - hash:
       serializedVersion: 2
+      Hash: a6e561615949734e9f12f9b61661f43e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
       Hash: 24c74cc0d527a06113f2b967042769f0
     assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
     namespaceName: UnityEditor.XR.LegacyInputHelpers
@@ -402,12 +400,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AnimationPlayableAsset
-  - hash:
-      serializedVersion: 2
-      Hash: a6e561615949734e9f12f9b61661f43e
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Image
   - hash:
       serializedVersion: 2
       Hash: 04e4a8b0447477cc4e933d9e5311188f
@@ -554,6 +546,12 @@ ScriptsOnlyBuild:
     className: ARParticipantManager
   - hash:
       serializedVersion: 2
+      Hash: 5384954419b9ca265457e5d2015857f6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlacementObject
+  - hash:
+      serializedVersion: 2
       Hash: 86da5fcc685da74170017c7854a5584c
     assemblyName: Assembly-CSharp.dll
     namespaceName: UnityEngine.XR.ARFoundation.Samples
@@ -650,6 +648,12 @@ ScriptsOnlyBuild:
     className: XRReferenceObjectLibrary
   - hash:
       serializedVersion: 2
+      Hash: 76b7e183d9d3382d8f2b9ae1c01d0aa6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ARFeatheredPlaneMeshVisualizer
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestRunner.Utils
@@ -722,7 +726,7 @@ ScriptsOnlyBuild:
     className: MarkerTrack
   - hash:
       serializedVersion: 2
-      Hash: a1be8b1e09f482bcc62ecd267af42e27
+      Hash: a503fb23387e6baba3628d85864b8d5e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameController
@@ -822,6 +826,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: f2f10764896eb99b844bea0d1e703c41
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AutoPlacementOfObject
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -926,6 +936,12 @@ ScriptsOnlyBuild:
     className: ARSession
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FadePlaneOnBoundaryChange
+  - hash:
+      serializedVersion: 2
       Hash: a81d4c2c1cf3ad164d277d927a193679
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -998,7 +1014,7 @@ ScriptsOnlyBuild:
     className: dreamloLeaderBoard
   - hash:
       serializedVersion: 2
-      Hash: 73868d4ab4c3142ed944fd34752a28ac
+      Hash: 1136c3fa63af39cd7dcc5de19a0f3b49
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LeaderBoardManager
@@ -1160,6 +1176,12 @@ ScriptsOnlyBuild:
     className: NetworkTransformVisualizer
   - hash:
       serializedVersion: 2
+      Hash: 5e66250c9bd7bc07555640740d5d0746
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlaneSetupManager
+  - hash:
+      serializedVersion: 2
       Hash: 290afc8da8e459e0b8dc7444bfaf5e35
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
@@ -1236,34 +1258,10 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: f2f10764896eb99b844bea0d1e703c41
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: AutoPlacementOfObject
-  - hash:
-      serializedVersion: 2
-      Hash: 5384954419b9ca265457e5d2015857f6
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlacementObject
-  - hash:
-      serializedVersion: 2
-      Hash: 76b7e183d9d3382d8f2b9ae1c01d0aa6
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ARFeatheredPlaneMeshVisualizer
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: FadePlaneOnBoundaryChange
   platform: 13
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/GamePlay.unity
   - Assets/Scenes/LeaderBoard.unity
   - Assets/Scenes/VideoPlay.unity
-  playerPath: D:/DSV/TME/GetGpsTest2.apk
+  playerPath: D:/DSV/TME/Kulturkrocken.apk

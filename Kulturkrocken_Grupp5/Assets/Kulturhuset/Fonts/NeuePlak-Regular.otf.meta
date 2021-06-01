@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 7fceda2c09e770d4ca65af707b062afd
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Neue Plak
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 94dae098a136a4243ae85ebc75556def, type: 3}
+  - {fileID: 12800000, guid: 94a6fb6eaf4e7f84fbc71bed0d13d848, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

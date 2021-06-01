@@ -17,6 +17,7 @@ public class GameController : MonoBehaviour
     const string ScoreKey = "Score";
 
     public GameObject recordPanel;
+    public GameObject BackBtn;
     public Text recordText;
     public Text scoreText;
 
@@ -57,7 +58,7 @@ public class GameController : MonoBehaviour
 
     private void SetRecordText()
     {
-        recordText.text = "Finished game in turn " + recordGuess;
+        recordText.text = "Finished game on turn " + recordGuess;
     }
 
     void GetButtons()
@@ -213,6 +214,7 @@ public class GameController : MonoBehaviour
         LoadPrefs();
         SetRecordText();
         recordPanel.SetActive(true);
+        BackBtn.SetActive(false);
     }
 
     private void OnApplicationQuit()

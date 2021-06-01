@@ -25319,15 +25319,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExternalException__ctor_mF237400F375CB6B
 		return;
 	}
 }
-// System.Int32 System.Runtime.InteropServices.ExternalException::get_ErrorCode()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ExternalException_get_ErrorCode_m94D6338CFCED03AFB67793A808A05BB319741E5F (ExternalException_tC18275DD0AEB2CDF9F85D94670C5A49A4DC3B783 * __this, const RuntimeMethod* method)
-{
-	{
-		int32_t L_0;
-		L_0 = Exception_get_HResult_mAF0FE56C31C3C7D5567539FB46BE80D6B9D1AD42_inline(__this, /*hidden argument*/NULL);
-		return L_0;
-	}
-}
 // System.String System.Runtime.InteropServices.ExternalException::ToString()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ExternalException_ToString_m399F69B1A9D5E69DF2D79876742AA4FCF80B55BE (ExternalException_tC18275DD0AEB2CDF9F85D94670C5A49A4DC3B783 * __this, const RuntimeMethod* method)
 {
@@ -29341,7 +29332,7 @@ IL_0037:
 	{
 		NullCheck(G_B6_0);
 		RuntimeObject * L_8;
-		L_8 = VirtFuncInvoker0< RuntimeObject * >::Invoke(14 /* System.Object System.Runtime.Remoting.Messaging.AsyncResult::get_AsyncDelegate() */, G_B6_0);
+		L_8 = VirtFuncInvoker0< RuntimeObject * >::Invoke(13 /* System.Object System.Runtime.Remoting.Messaging.AsyncResult::get_AsyncDelegate() */, G_B6_0);
 		ReadDelegate_tB245FDB608C11A53AC71F333C1A6BE3D7CDB21BB * L_9 = ((ReadDelegate_tB245FDB608C11A53AC71F333C1A6BE3D7CDB21BB *)IsInstSealed((RuntimeObject*)L_8, ReadDelegate_tB245FDB608C11A53AC71F333C1A6BE3D7CDB21BB_il2cpp_TypeInfo_var));
 		G_B7_0 = L_9;
 		if (L_9)
@@ -29864,7 +29855,7 @@ IL_0037:
 	{
 		NullCheck(G_B6_0);
 		RuntimeObject * L_7;
-		L_7 = VirtFuncInvoker0< RuntimeObject * >::Invoke(14 /* System.Object System.Runtime.Remoting.Messaging.AsyncResult::get_AsyncDelegate() */, G_B6_0);
+		L_7 = VirtFuncInvoker0< RuntimeObject * >::Invoke(13 /* System.Object System.Runtime.Remoting.Messaging.AsyncResult::get_AsyncDelegate() */, G_B6_0);
 		WriteDelegate_tF68E6D874C089E69933FA2B9A0C1C6639929C4F6 * L_8 = ((WriteDelegate_tF68E6D874C089E69933FA2B9A0C1C6639929C4F6 *)IsInstSealed((RuntimeObject*)L_7, WriteDelegate_tF68E6D874C089E69933FA2B9A0C1C6639929C4F6_il2cpp_TypeInfo_var));
 		G_B7_0 = L_8;
 		if (L_8)
@@ -30979,14 +30970,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileStreamAsyncResult_CBWrapper_mB65F4D3
 		RuntimeObject* L_3;
 		L_3 = AsyncCallback_BeginInvoke_mAD3C6509E4838E7F90B8AE0C206D9B08EE8EFD15(L_1, L_2, (AsyncCallback_tA7921BEF974919C46FF8F9D9867C567B200BB0EA *)NULL, NULL, /*hidden argument*/NULL);
 		return;
-	}
-}
-// System.Object System.IO.FileStreamAsyncResult::get_AsyncState()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * FileStreamAsyncResult_get_AsyncState_mB7EEE9505A2E866EFAE64C6D707E050B097CD563 (FileStreamAsyncResult_t7613F8A2E6E3FE326E6362BD9E1B143B66B02475 * __this, const RuntimeMethod* method)
-{
-	{
-		RuntimeObject * L_0 = __this->get_state_0();
-		return L_0;
 	}
 }
 // System.Threading.WaitHandle System.IO.FileStreamAsyncResult::get_AsyncWaitHandle()
