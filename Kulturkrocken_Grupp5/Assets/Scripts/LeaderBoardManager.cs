@@ -154,7 +154,7 @@ public class LeaderBoardManager : MonoBehaviour
         {
 			myN = Input.location.lastData.latitude;
 			myE = Input.location.lastData.longitude;
-			GPS.text = myN + ", " + myE;
+			GPS.text = "On Spot";
 			Input.location.Stop();
 			yield return null;
 		}
